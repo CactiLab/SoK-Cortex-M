@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ArysTracker.bin",
+            "dat_file": "ArysTracker.dat",
+            "init_packet_data": {
+                "application_version": 2,
+                "device_revision": 43690,
+                "device_type": 48059,
+                "firmware_crc16": 43522,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

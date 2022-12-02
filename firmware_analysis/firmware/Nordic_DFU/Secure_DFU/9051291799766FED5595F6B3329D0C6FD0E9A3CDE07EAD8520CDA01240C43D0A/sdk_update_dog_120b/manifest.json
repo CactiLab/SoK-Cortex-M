@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "DOG-120b_DOG-2600_9f6150.bin",
+            "dat_file": "DOG-120b_DOG-2600_9f6150.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 25096,
+                "sd_size": 147792
+            }
+        }
+    }
+}

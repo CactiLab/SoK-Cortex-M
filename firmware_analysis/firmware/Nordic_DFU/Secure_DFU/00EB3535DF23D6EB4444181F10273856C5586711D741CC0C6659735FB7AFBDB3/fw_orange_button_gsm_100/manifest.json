@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "orange.button.gsm.fw.app.1.0.0.bin",
+            "dat_file": "orange.button.gsm.fw.app.1.0.0.dat"
+        }
+    }
+}

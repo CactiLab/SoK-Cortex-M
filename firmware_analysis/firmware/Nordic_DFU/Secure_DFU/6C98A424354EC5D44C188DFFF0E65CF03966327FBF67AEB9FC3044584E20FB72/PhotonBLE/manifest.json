@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "PhotonBLE.bin",
+            "dat_file": "PhotonBLE.dat"
+        }
+    }
+}

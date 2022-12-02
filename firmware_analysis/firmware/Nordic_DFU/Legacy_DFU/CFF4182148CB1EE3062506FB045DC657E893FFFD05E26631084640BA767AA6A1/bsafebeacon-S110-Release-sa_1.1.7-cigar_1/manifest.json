@@ -1,0 +1,31 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "bsafebeacon-S110.bin",
+            "dat_file": "bsafebeacon-S110.dat",
+            "init_packet_data": {
+                "application_version": 134283527,
+                "device_revision": 1,
+                "device_type": 4,
+                "firmware_crc16": 46284,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5,
+        "softdevice": {
+            "bin_file": "s110_nrf51_8.0.0_softdevice.bin",
+            "dat_file": "s110_nrf51_8.0.0_softdevice.dat",
+            "init_packet_data": {
+                "application_version": 134283527,
+                "device_revision": 1,
+                "device_type": 4,
+                "firmware_crc16": 27086,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        }
+    }
+}

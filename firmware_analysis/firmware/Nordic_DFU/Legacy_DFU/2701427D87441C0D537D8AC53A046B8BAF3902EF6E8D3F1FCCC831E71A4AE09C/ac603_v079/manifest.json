@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "AC603_VIITA_NRF51822_V0.7.9_181110_140250.bin",
+            "dat_file": "AC603_VIITA_NRF51822_V0.7.9_181110_140250.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 11183,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

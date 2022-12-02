@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sma10b_firmware.bin",
+            "dat_file": "sma10b_firmware.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 24808,
+                "softdevice_req": [
+                    136
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "secure_dfu_ble_s132_pca10040.bin",
+            "dat_file": "secure_dfu_ble_s132_pca10040.dat"
+        }
+    }
+}

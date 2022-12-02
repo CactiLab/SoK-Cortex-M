@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "AC910_0701_V3.5.31_20200211_1950.bin",
+            "dat_file": "AC910_0701_V3.5.31_20200211_1950.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 54848,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ble_core.bin",
+            "dat_file": "ble_core.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 79,
+                "device_type": 79,
+                "firmware_crc16": 16281,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        }
+    }
+}

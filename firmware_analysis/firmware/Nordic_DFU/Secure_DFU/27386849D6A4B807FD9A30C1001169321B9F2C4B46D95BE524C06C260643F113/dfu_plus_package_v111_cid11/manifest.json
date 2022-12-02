@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app.bin",
+            "dat_file": "app.dat"
+        }
+    }
+}

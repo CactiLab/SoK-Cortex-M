@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "H705.bin",
+            "dat_file": "H705.dat",
+            "init_packet_data": {
+                "application_version": 255,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 28950,
+                "softdevice_req": [
+                    152
+                ]
+            }
+        }
+    }
+}

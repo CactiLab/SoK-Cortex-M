@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "4.00.33-0072.dev.zipsiren.apponly.bin",
+            "dat_file": "4.00.33-0072.dev.zipsiren.apponly.dat"
+        }
+    }
+}

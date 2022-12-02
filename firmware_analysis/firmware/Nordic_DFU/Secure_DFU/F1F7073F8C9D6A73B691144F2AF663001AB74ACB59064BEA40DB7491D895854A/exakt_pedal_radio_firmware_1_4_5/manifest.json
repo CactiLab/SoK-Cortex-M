@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Exakt_Pedal_Radio_Firmware.bin",
+            "dat_file": "Exakt_Pedal_Radio_Firmware.dat"
+        }
+    }
+}

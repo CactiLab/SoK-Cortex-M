@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sys.bin",
+            "dat_file": "sys.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 67148,
+                "sd_size": 151016
+            }
+        }
+    }
+}

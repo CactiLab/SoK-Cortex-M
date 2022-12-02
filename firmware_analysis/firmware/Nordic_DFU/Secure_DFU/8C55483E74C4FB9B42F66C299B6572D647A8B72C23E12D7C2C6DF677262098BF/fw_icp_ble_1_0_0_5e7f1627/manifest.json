@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ICP_NRF52.bin",
+            "dat_file": "ICP_NRF52.dat"
+        }
+    }
+}

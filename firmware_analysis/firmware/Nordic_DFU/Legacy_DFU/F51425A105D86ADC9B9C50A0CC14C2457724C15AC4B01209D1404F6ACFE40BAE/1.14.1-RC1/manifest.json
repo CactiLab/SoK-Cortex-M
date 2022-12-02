@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app_fw_1.14.1-RC1.bin",
+            "dat_file": "app_fw_1.14.1-RC1.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 58268,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

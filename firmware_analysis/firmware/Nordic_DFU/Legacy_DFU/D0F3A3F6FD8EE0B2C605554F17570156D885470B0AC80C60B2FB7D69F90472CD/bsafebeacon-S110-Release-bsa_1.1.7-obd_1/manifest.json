@@ -1,0 +1,33 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "bsafebeacon-S110.bin",
+            "dat_file": "bsafebeacon-S110.dat",
+            "init_packet_data": {
+                "application_version": 134283527,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 47195,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5,
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "bl_size": 14484,
+            "dat_file": "sd_bl.dat",
+            "init_packet_data": {
+                "application_version": 134283527,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 48222,
+                "softdevice_req": [
+                    100
+                ]
+            },
+            "sd_size": 88344
+        }
+    }
+}

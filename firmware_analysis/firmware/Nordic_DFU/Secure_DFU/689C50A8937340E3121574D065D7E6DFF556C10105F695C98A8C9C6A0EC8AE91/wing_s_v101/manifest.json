@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Wing_S_v101.bin",
+            "dat_file": "Wing_S_v101.dat"
+        }
+    }
+}

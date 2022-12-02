@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ncase.bin",
+            "dat_file": "ncase.dat"
+        }
+    }
+}

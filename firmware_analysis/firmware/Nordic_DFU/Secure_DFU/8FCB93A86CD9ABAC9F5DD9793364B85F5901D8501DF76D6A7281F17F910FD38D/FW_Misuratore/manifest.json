@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "P406_Meter_Mesh.bin",
+            "dat_file": "P406_Meter_Mesh.dat"
+        }
+    }
+}

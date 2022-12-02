@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "WoPresence.bin",
+            "dat_file": "WoPresence.dat"
+        }
+    }
+}

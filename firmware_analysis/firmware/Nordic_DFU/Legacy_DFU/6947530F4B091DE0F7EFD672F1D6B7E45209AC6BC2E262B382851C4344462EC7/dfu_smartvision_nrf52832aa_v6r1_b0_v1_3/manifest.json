@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "DFU_SmartVision_nrf52832AA_V6R1_B0_V1_3.bin",
+            "dat_file": "DFU_SmartVision_nrf52832AA_V6R1_B0_V1_3.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 1538,
+                "device_type": 7,
+                "firmware_crc16": 35656,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Keen_V2_FreeRTOS.bin",
+            "dat_file": "Keen_V2_FreeRTOS.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 24020,
+                "sd_size": 152728
+            }
+        }
+    }
+}

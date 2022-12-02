@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "scosche_application_nrf52_xxaa.bin",
+            "dat_file": "scosche_application_nrf52_xxaa.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 22712,
+                "sd_size": 156348
+            }
+        }
+    }
+}

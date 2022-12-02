@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "0271_v9_RGB.bin",
+            "dat_file": "0271_v9_RGB.dat"
+        }
+    }
+}

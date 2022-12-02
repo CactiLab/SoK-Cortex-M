@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "nebulite_smart_bootloader-0.3.2-120-g1fab914.bin",
+            "dat_file": "nebulite_smart_bootloader-0.3.2-120-g1fab914.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 52840,
+                "device_type": 82,
+                "firmware_crc16": 15007,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

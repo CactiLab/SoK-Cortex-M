@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "crayonic_ambrosus_L1.bin",
+            "dat_file": "crayonic_ambrosus_L1.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 23736,
+                "sd_size": 148424
+            }
+        }
+    }
+}

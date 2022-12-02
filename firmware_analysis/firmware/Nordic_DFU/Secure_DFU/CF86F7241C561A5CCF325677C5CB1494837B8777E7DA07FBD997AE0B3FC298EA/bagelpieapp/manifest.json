@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Bagel_Pie_APP_Release.bin",
+            "dat_file": "Bagel_Pie_APP_Release.dat"
+        }
+    }
+}

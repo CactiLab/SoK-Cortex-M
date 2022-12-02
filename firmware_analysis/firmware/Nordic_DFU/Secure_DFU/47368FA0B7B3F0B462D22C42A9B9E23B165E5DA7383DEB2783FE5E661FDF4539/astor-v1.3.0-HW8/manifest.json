@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "embedded-astor-ble.bin",
+            "dat_file": "embedded-astor-ble.dat"
+        }
+    }
+}

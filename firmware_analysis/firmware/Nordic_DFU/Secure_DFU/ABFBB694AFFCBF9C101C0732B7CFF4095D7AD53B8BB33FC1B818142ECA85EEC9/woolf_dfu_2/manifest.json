@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Woolf_REV-01.bin",
+            "dat_file": "Woolf_REV-01.dat"
+        }
+    }
+}

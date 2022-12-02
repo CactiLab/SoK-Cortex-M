@@ -1,0 +1,12 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "insole_application.bin",
+            "dat_file": "insole_application.dat"
+        },
+        "softdevice": {
+            "bin_file": "s132_nrf52_6.1.0_softdevice.bin",
+            "dat_file": "s132_nrf52_6.1.0_softdevice.dat"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "SI0012_190508-01-090203.bin",
+            "dat_file": "SI0012_190508-01-090203.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 24017,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

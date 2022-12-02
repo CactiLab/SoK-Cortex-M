@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "wocurtain.bin",
+            "dat_file": "wocurtain.dat"
+        }
+    }
+}

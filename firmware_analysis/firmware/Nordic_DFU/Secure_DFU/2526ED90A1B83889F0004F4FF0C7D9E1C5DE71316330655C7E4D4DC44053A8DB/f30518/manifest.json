@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "iFly_W307H_Embeded.bin",
+            "dat_file": "iFly_W307H_Embeded.dat"
+        }
+    }
+}

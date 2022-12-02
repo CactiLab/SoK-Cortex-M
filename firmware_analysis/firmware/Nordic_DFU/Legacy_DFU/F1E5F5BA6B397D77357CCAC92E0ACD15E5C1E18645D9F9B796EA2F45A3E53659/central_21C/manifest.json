@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf51422_xxac_s130.bin",
+            "dat_file": "nrf51422_xxac_s130.dat",
+            "init_packet_data": {
+                "application_version": 0,
+                "device_revision": 117,
+                "device_type": 12,
+                "firmware_crc16": 41357,
+                "softdevice_req": [
+                    128
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

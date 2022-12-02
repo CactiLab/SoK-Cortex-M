@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "maxforce.bin",
+            "dat_file": "maxforce.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 20091,
+                "softdevice_req": [
+                    135
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

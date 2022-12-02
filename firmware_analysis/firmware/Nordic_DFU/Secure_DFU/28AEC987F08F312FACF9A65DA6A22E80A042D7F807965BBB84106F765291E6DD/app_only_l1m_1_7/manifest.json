@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "crayonic_ambrosus_L1.bin",
+            "dat_file": "crayonic_ambrosus_L1.dat"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "AC910_NRF51822_V3.1.2_20181017_190150.bin",
+            "dat_file": "AC910_NRF51822_V3.1.2_20181017_190150.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 25500,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

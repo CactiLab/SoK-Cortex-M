@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "SI0018_191204-01_50.04.03.bin",
+            "dat_file": "SI0018_191204-01_50.04.03.dat"
+        }
+    }
+}

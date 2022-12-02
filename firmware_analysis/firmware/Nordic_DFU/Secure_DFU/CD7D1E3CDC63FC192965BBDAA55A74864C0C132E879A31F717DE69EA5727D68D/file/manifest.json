@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Des_Vib_Rx_BLE.bin",
+            "dat_file": "Des_Vib_Rx_BLE.dat"
+        }
+    }
+}

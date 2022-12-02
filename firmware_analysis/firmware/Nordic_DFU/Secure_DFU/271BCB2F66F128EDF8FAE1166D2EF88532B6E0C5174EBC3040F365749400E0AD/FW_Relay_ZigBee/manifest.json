@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "P406_Relay_Zigbee.bin",
+            "dat_file": "P406_Relay_Zigbee.dat"
+        }
+    }
+}

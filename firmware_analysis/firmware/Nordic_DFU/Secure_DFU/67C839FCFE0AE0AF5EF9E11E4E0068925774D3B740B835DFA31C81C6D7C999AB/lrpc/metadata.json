@@ -1,0 +1,8 @@
+{
+  "moduleType": "lrpc",
+  "softwareVersion": "6.2.26",
+  "hardwareVersions": [
+    "A",
+    "B"
+  ]
+}

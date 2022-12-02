@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "S0159_Interface_BLE_fV1002.bin",
+            "dat_file": "S0159_Interface_BLE_fV1002.dat"
+        }
+    }
+}

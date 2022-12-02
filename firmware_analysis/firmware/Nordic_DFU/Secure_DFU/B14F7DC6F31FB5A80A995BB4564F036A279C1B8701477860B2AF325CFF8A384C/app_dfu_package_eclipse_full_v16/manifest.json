@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "node_s132_mesh400_sdk160.bin",
+            "dat_file": "node_s132_mesh400_sdk160.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 47748,
+                "sd_size": 149696
+            }
+        }
+    }
+}

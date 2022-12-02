@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Jimmy_scale_rev_1_4_16.bin",
+            "dat_file": "Jimmy_scale_rev_1_4_16.dat"
+        }
+    }
+}

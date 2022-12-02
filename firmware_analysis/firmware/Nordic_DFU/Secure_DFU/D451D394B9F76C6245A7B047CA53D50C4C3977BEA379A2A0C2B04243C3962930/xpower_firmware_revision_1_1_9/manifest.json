@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "XPower_Firmware.bin",
+            "dat_file": "XPower_Firmware.dat"
+        }
+    }
+}

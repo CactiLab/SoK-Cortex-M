@@ -1,0 +1,16 @@
+vApplicationStackOverflowHook   4
+RTOS task %s stack overflow   5
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)   7
+ERR: Stack ovf   14
+Stack Overflow:%s   1
+Stack Overflow! Task %s   50
+E_stackOverflow: Task 0x%x stack overflow.   2
+*** stack smashing detected ***: terminated   1
+STACKOVERFLOW   2
+Stack overflow detected.   9
+STACK CORRUPTION   5
+Error: Thread stack(%08x) was overflow   1
+Stack overflow '%s'
+
+
+[('8f2c5c76fd26f67f63eb8c06be8165f4',), ('3921f0e0b28c4cfa3ae1c9645c936011',), ('e9b170eacddd9bbc0ce41cba8e4c32ba',), ('39141469b04f2705a4f5c45683f91f83',), ('1773df9a040dd6f608c41a4b3523a8f6',), ('29ed8a50df67fe44a5d25e69711eb606',), ('dea6a113c5970c1f0c125c26ab2ef9d3',), ('e604a4bcb119fe20a13f120a92a483c9',), ('d78161d81bc3c93250e619f2b6ef6f0f',), ('e3c59822b436b98781136a66c35b5efc',), ('3917edc2327d63a923c9c41b548cae6f',), ('3486fb5290ff44b71c0ed77a930451c5',), ('5d7e566b6f638b488452b01eda31becd',), ('93b066f6f59435cf32433660517de127',), ('0ad456fe540a8b49cd5278f205e2e6d6',), ('9d6d0a7b5e1df4618795da96c3920045',), ('05ae8e397bde5d8e52137a4916d9ac9b',), ('bdb63872c8ff5e3613bd649ae67a4cc1',), ('febec11f743cb4a795b564132793bbe9',), ('8272c46dccccb5dd48a649881809accc',), ('904949410fa95e964ad4dd8dbee8eef5',), ('4ca548129bcff2c9d84770de5421d348',), ('c5639c8752da08ed04c0136715dcfd2e',), ('a36bd74ce6a7410c12485b1515211981',), ('5949f3bfad7ff2701e16ffb0ce08cb5d',), ('78ff7673174790e86f8d2c5eba62410a',), ('98351864a78c183e233904ed0be4d08a',), ('426f4bf2d27bcf1fc1dad4174804b014',)]

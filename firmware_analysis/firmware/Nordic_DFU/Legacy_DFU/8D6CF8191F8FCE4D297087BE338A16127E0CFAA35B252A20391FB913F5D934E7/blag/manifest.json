@@ -1,0 +1,33 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "BLAG_Soft_V5_01_08.bin",
+            "dat_file": "BLAG_Soft_V5_01_08.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 41919,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5,
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "bl_size": 15180,
+            "dat_file": "sd_bl.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 19947,
+                "softdevice_req": [
+                    100
+                ]
+            },
+            "sd_size": 88344
+        }
+    }
+}

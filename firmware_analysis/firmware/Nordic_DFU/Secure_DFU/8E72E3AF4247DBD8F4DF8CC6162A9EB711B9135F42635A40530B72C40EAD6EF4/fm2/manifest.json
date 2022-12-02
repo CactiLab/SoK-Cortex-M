@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "miaomiao_c1.bin",
+            "dat_file": "miaomiao_c1.dat"
+        }
+    }
+}

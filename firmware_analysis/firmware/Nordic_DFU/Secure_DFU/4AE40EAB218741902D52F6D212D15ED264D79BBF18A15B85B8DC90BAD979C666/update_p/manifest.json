@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "BSW20204006.bin",
+            "dat_file": "BSW20204006.dat"
+        }
+    }
+}

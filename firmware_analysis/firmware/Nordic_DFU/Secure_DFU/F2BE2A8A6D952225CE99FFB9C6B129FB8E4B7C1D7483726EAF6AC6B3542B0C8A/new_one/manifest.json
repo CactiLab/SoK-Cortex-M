@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "app_fw_RELEASE.bin",
+            "dat_file": "app_fw_RELEASE.dat"
+        }
+    }
+}

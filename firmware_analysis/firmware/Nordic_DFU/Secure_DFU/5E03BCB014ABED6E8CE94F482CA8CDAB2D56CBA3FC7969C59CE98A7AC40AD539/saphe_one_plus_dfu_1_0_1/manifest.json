@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "saphe_atlas_app_1.0.1_prod.bin",
+            "dat_file": "saphe_atlas_app_1.0.1_prod.dat"
+        }
+    }
+}

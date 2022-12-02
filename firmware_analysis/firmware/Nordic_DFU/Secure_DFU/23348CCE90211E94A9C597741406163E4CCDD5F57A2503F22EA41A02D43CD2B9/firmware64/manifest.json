@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "BtTempSensor_IARproject.bin",
+            "dat_file": "BtTempSensor_IARproject.dat"
+        }
+    }
+}

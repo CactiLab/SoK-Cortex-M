@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "P436_TascaNFC_Mesh.bin",
+            "dat_file": "P436_TascaNFC_Mesh.dat"
+        }
+    }
+}

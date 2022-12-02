@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Jimmy_display_rev_1_3_5.bin",
+            "dat_file": "Jimmy_display_rev_1_3_5.dat"
+        }
+    }
+}

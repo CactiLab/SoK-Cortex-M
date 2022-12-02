@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "dfu_inj_10062016.bin",
+            "dat_file": "dfu_inj_10062016.dat",
+            "init_packet_data": {
+                "application_version": 1,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 56660,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf52_dynaQBLE_V1_0_0.bin",
+            "dat_file": "nrf52_dynaQBLE_V1_0_0.dat"
+        }
+    }
+}

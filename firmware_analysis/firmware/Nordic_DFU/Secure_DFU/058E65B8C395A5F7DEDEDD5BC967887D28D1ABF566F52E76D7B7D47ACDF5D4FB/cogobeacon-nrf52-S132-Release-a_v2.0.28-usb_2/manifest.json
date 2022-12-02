@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "cogobeacon-nrf52-S132.bin",
+            "dat_file": "cogobeacon-nrf52-S132.dat"
+        }
+    }
+}

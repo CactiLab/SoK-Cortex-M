@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ring-beams-c40-sec-enabled-debug (10).bin",
+            "dat_file": "ring-beams-c40-sec-enabled-debug (10).dat"
+        }
+    }
+}

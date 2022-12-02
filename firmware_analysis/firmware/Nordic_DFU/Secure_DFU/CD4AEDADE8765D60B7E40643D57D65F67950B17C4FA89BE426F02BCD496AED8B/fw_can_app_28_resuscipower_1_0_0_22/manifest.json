@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fw_can_app_28_resusci_power_1.0.0.22.bin",
+            "dat_file": "fw_can_app_28_resusci_power_1.0.0.22.dat"
+        }
+    }
+}

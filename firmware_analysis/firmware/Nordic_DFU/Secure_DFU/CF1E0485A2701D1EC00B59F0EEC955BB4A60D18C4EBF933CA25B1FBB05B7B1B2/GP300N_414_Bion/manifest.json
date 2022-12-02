@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "GP300D.bin",
+            "dat_file": "GP300D.dat"
+        }
+    }
+}

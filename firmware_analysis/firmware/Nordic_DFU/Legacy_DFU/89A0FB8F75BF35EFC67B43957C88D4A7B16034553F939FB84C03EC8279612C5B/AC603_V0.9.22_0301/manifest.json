@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "AC603_0301_V0.9.22_200211_2000.bin",
+            "dat_file": "AC603_0301_V0.9.22_200211_2000.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 58212,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

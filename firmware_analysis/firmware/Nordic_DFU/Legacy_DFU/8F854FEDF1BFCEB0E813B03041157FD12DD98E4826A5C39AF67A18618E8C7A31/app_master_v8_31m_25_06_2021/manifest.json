@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf52832_xxaa_s132.bin",
+            "dat_file": "nrf52832_xxaa_s132.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "ext_packet_id": 2,
+                "firmware_hash": "a1c6d9c72cf3d02aff54667f551687d7b0d8d782e9cf3134b7c3d147b7381538",
+                "firmware_length": 150492,
+                "init_packet_ecds": "7e9c908cfa34f37765086e62058ea668e2b6b71c07e80659173aefaf11494065b81ac4c862a241949491dc8080d746ebd6c3e28202231d946f6d746f2e013827",
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.8
+    }
+}

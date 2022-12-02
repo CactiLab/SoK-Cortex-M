@@ -1,0 +1,31 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "NORDIC.bin",
+            "dat_file": "NORDIC.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 20102,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "applicationOtherCpu": {
+            "bin_file": "STM.bin",
+            "dat_file": "STM.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 40993,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

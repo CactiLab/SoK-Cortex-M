@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "artifact.bin",
+            "dat_file": "artifact.dat",
+            "init_packet_data": {
+                "application_version": 1,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 60881,
+                "softdevice_req": [
+                    129
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

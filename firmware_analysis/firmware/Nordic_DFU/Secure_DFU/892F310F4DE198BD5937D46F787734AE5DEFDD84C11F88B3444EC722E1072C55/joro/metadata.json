@@ -1,0 +1,7 @@
+{
+  "moduleType": "joro",
+  "softwareVersion": "6.2.28",
+  "hardwareVersions": [
+    "C", "D", "E"
+  ]
+}

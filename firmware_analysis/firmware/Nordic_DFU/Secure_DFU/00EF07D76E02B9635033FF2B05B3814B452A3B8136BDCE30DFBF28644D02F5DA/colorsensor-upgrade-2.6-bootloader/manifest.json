@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "bootloader.bin",
+            "dat_file": "bootloader.dat"
+        }
+    }
+}

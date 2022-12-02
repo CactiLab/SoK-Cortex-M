@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sma07_app(pah8002).bin",
+            "dat_file": "sma07_app(pah8002).dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 27097,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        }
+    }
+}

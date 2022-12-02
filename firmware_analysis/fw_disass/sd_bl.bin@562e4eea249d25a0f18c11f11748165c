@@ -1,0 +1,31 @@
+                            MasterStackPointer:           
+                            Reset:                        ;XREF[1,0]:   Entry Point
+ram:00000004    55bcb055        addr        DAT_55b0bc55                            
+                            NMI:                          ;XREF[1,0]:   Entry Point
+ram:00000008    a540461b        addr        DAT_1b4640a5                            
+                            HardFault:                    ;XREF[1,0]:   Entry Point
+ram:0000000c    6bd638dd        addr        DAT_dd38d66b                            
+                            MemManage:                    ;XREF[1,0]:   Entry Point
+ram:00000010    2dc8cea3        addr        DAT_a3cec82d                            
+                            BusFault:                     ;XREF[1,0]:   Entry Point
+ram:00000014    f18c9267        addr        DAT_67928cf1                            
+                            UsageFault:                   ;XREF[1,0]:   Entry Point
+ram:00000018    b550562b        addr        DAT_2b5650b5                            
+                            Reserved1:                    ;XREF[1,0]:   Entry Point
+ram:0000001c    5c8dbeef        addr        DAT_efbe8d5c                            
+                            Reserved2:                    ;XREF[1,0]:   Entry Point
+ram:00000020    205182b3        addr        DAT_b3825120                            
+                            Reserved3:                    ;XREF[1,0]:   Entry Point
+ram:00000024    e4154677        addr        DAT_774615e4                            
+                            Reserved5:                    ;XREF[1,0]:   Entry Point
+                            Reserved6:                    
+                            Reserved4:                    
+ram:00000028    a8d90a3b        addr        DAT_3b0ad9a8                            
+                            SVCall:                       ;XREF[1,0]:   Entry Point
+ram:0000002c    750d57fd        addr        DAT_fd570d75                            
+                            PendSV:                       ;XREF[1,0]:   Entry Point
+ram:00000038    d570764b        addr        DAT_4b7670d5                            
+                            SysTick:                      ;XREF[1,0]:   Entry Point
+ram:0000003c    99343a0f        addr        DAT_0f3a3499                            
+                            IRQ:                          ;XREF[1,0]:   Entry Point
+ram:00000040    b1792bd1        addr        DAT_d12b79b1                            

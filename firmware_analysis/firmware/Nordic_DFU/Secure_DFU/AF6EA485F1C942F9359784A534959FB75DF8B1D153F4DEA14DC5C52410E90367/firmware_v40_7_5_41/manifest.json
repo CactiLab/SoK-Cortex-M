@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fwAndFxi.bin",
+            "dat_file": "fwAndFxi.dat"
+        }
+    }
+}

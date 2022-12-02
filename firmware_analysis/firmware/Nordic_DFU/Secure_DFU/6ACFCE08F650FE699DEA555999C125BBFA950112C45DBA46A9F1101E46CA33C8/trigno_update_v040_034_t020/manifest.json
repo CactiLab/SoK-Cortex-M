@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "trigno_update_v040.034_T020.bin",
+            "dat_file": "trigno_update_v040.034_T020.dat"
+        }
+    }
+}

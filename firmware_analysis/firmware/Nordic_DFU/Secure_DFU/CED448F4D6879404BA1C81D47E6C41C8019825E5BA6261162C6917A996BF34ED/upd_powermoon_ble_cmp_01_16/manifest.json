@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "powermoon_ble_sdk15_sd_140v6.bin",
+            "dat_file": "powermoon_ble_sdk15_sd_140v6.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 23760,
+                "sd_size": 151016
+            }
+        }
+    }
+}

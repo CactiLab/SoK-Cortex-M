@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "genibot_robot.bin",
+            "dat_file": "genibot_robot.dat"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "dfu_test_app_hrm_s130.bin",
+            "dat_file": "dfu_test_app_hrm_s130.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 9292,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

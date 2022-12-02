@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "bluetooth_ucache_nrf52840_hw5_fw4_s140_nrf52_7.0.1.bin",
+            "dat_file": "bluetooth_ucache_nrf52840_hw5_fw4_s140_nrf52_7.0.1.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 24224,
+                "sd_size": 152984
+            }
+        }
+    }
+}

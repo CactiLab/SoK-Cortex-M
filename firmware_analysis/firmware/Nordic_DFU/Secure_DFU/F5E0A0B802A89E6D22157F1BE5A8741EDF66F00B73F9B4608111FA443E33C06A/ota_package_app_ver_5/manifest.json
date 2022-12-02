@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "MAINAPP_6_5_20190617.bin",
+            "dat_file": "MAINAPP_6_5_20190617.dat"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "AC603_VIITA_BT_GS_V061_180620_1014.bin",
+            "dat_file": "AC603_VIITA_BT_GS_V061_180620_1014.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 50222,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "bootloader": {
+            "bin_file": "bootloader.bin",
+            "dat_file": "bootloader.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 615,
+                "softdevice_req": [
+                    103
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

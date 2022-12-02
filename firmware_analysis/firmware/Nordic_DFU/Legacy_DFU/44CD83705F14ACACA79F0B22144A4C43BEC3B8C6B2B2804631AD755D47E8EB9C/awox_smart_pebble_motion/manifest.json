@@ -1,0 +1,21 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "SmartMotion_Release.bin",
+            "dat_file": "SmartMotion_Release.dat",
+            "init_packet_data": {
+                "application_version": 17039872,
+                "device_revision": 1,
+                "device_type": 1,
+                "ext_packet_id": 2,
+                "firmware_hash": "d0654a64ba93f40b5c68660e2980a63fa5f0479b62b25ee4db639032c3d0fa2a",
+                "firmware_length": 75652,
+                "init_packet_ecds": "ac1671b14a2090d035191df7ab668a439504bd8411764e28ba08076a6abe341928b29ed78b0cf3abcbc0dbf538cbfeed4913988ef38d302249fcc68075023a69",
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.8
+    }
+}

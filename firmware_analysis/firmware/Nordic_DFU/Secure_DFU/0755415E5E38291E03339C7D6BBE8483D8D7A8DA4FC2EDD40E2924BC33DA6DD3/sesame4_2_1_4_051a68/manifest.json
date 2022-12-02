@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sesame4.bin",
+            "dat_file": "sesame4.dat"
+        }
+    }
+}

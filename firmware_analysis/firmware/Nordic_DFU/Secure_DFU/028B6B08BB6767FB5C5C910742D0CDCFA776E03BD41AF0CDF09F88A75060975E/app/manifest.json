@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "dr4me_stm_app.bin",
+            "dat_file": "dr4me_stm_app.dat"
+        }
+    }
+}

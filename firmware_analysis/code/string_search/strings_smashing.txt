@@ -1,0 +1,5 @@
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+*** stack smashing detected ***: terminated
+
+Total: 1793
+Found: 1

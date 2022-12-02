@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ble_app_uart_loopback_s130_v2_0_0_sdk_11_0.bin",
+            "dat_file": "ble_app_uart_loopback_s130_v2_0_0_sdk_11_0.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 4806,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

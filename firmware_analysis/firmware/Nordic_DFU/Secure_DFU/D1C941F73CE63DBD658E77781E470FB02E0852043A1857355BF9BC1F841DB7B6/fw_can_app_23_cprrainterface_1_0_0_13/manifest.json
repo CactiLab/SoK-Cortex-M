@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fw_can_app_23_cpr_ra_interface_1.0.0.13.bin",
+            "dat_file": "fw_can_app_23_cpr_ra_interface_1.0.0.13.dat"
+        }
+    }
+}

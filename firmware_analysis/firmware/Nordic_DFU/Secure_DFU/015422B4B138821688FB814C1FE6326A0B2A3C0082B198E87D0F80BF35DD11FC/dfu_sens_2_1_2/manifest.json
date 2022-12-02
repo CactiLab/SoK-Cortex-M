@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sens.002.001.0002.bin",
+            "dat_file": "sens.002.001.0002.dat"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ProNav_Remote_pca10040_s132.bin",
+            "dat_file": "ProNav_Remote_pca10040_s132.dat"
+        }
+    }
+}

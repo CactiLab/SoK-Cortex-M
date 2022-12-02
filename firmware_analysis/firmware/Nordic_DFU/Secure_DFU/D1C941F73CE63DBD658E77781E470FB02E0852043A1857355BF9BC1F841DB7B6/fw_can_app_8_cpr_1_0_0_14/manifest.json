@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fw_can_app_8_cpr_1.0.0.14.bin",
+            "dat_file": "fw_can_app_8_cpr_1.0.0.14.dat"
+        }
+    }
+}

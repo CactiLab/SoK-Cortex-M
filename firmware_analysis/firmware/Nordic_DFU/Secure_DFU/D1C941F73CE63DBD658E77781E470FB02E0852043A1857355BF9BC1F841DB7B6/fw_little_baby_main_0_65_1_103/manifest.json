@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin",
+            "dat_file": "fw-qcpr-sensor-mk3-lb_release_0.65.1.103.dat"
+        }
+    }
+}

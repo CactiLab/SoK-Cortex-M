@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "haefele_firmware.bin",
+            "dat_file": "haefele_firmware.dat"
+        }
+    }
+}

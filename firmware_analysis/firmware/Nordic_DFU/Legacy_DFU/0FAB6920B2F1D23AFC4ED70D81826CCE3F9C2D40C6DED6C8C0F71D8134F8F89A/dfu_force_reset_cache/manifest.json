@@ -1,0 +1,12 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Movesense.bin",
+            "dat_file": "Movesense.dat",
+            "init_packet_data": {
+                "application_version": "2.9.0.5"
+                }
+        },
+        "dfu_version": 0.5
+    }
+}

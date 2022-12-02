@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "application_s130_v213.bin",
+            "dat_file": "application_s130_v213.dat"
+        }
+    }
+}

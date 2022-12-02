@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "Bagel_Pie_DFU_Release.bin",
+            "dat_file": "Bagel_Pie_DFU_Release.dat"
+        }
+    }
+}

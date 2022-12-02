@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf52_ble_guitar.bin",
+            "dat_file": "nrf52_ble_guitar.dat"
+        }
+    }
+}

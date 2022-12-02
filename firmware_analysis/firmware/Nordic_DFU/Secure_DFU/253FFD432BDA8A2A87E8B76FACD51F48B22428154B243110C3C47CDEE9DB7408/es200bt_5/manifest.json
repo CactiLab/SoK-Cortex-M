@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf52832_qfaa.bin",
+            "dat_file": "nrf52832_qfaa.dat"
+        }
+    }
+}

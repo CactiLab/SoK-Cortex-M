@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "mpc_release.bin",
+            "dat_file": "mpc_release.dat"
+        }
+    }
+}

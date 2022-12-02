@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "heatxi_s132.bin",
+            "dat_file": "heatxi_s132.dat"
+        }
+    }
+}

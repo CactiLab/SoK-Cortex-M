@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "softdevice": {
+            "bin_file": "sens.2.1.2_with_softdevice.bin",
+            "dat_file": "sens.2.1.2_with_softdevice.dat"
+        }
+    }
+}

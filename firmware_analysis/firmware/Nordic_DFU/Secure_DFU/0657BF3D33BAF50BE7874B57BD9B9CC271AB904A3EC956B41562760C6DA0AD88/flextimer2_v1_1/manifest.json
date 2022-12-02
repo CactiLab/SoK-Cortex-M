@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "FlexTimerMerged.bin",
+            "dat_file": "FlexTimerMerged.dat"
+        }
+    }
+}

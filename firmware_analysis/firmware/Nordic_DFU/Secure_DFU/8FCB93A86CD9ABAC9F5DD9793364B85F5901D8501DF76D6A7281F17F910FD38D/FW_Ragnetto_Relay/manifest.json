@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "P406_Ragnetto_Rele_Mesh.bin",
+            "dat_file": "P406_Ragnetto_Rele_Mesh.dat"
+        }
+    }
+}

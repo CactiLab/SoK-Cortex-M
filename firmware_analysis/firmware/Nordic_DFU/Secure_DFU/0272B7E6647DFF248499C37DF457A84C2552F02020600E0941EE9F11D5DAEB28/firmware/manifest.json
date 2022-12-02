@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "firmware-4.2.8.bin",
+            "dat_file": "firmware-4.2.8.dat"
+        }
+    }
+}

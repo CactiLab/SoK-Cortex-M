@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "illuminati_spot_v2_app_release_2018-2-22.bin",
+            "dat_file": "illuminati_spot_v2_app_release_2018-2-22.dat"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "recovery_MAIN_app_sdk123_to_sdk152.bin",
+            "dat_file": "recovery_MAIN_app_sdk123_to_sdk152.dat"
+        }
+    }
+}

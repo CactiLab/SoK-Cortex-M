@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "secure_bootloader_ble_s140_pca10056.bin",
+            "dat_file": "secure_bootloader_ble_s140_pca10056.dat"
+        }
+    }
+}

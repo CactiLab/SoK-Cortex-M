@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "SDO4Smart.bin",
+            "dat_file": "SDO4Smart.dat"
+        }
+    }
+}

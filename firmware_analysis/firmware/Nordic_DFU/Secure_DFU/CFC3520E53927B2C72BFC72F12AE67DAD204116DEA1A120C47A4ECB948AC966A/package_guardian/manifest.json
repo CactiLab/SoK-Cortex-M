@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Findster2_Trinity.bin",
+            "dat_file": "Findster2_Trinity.dat"
+        }
+    }
+}

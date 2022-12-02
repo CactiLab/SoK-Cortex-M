@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "lrag_us_release.bin",
+            "dat_file": "lrag_us_release.dat"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "fw_resusci_main_board_upgrade_image.bin",
+            "dat_file": "fw_resusci_main_board_upgrade_image.dat"
+        }
+    }
+}

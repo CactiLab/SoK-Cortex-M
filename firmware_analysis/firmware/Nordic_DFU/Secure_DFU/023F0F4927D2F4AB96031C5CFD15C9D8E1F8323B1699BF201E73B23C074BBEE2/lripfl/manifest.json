@@ -1,0 +1,16 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "lripfl_release.bin",
+            "dat_file": "lripfl_release.dat"
+        },
+        "softdevice_bootloader": {
+            "bin_file": "sd_bl.bin",
+            "dat_file": "sd_bl.dat",
+            "info_read_only_metadata": {
+                "bl_size": 38972,
+                "sd_size": 147792
+            }
+        }
+    }
+}

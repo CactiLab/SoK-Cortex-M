@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "DrumisticWoSD.bin",
+            "dat_file": "DrumisticWoSD.dat"
+        }
+    }
+}

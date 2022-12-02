@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ble_app_hids_keyboard_pca10056_s140.bin",
+            "dat_file": "ble_app_hids_keyboard_pca10056_s140.dat"
+        }
+    }
+}

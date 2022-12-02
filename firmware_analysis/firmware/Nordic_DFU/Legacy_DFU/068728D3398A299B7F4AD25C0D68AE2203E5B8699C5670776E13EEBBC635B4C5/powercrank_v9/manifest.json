@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nrf52832_xxaa.bin",
+            "dat_file": "nrf52832_xxaa.dat",
+            "init_packet_data": {
+                "application_version": 1,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 1912,
+                "softdevice_req": [
+                    133
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

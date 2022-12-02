@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "bootloader": {
+            "bin_file": "nrf52810_xxaa_s112.bin",
+            "dat_file": "nrf52810_xxaa_s112.dat"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ss2sw.bin",
+            "dat_file": "ss2sw.dat"
+        }
+    }
+}

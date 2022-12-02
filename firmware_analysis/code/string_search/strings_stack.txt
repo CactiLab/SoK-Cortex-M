@@ -1,0 +1,813 @@
+nordic/BP_application.bin@1175eccf7b2129c1dd8b6507b92c880e
+<vApplicationStackOverflowHook> pcTaskName: %s
+
+Nordic_DFU/Secure_DFU/44BD62D35B83BDE3520288A22D48069BFDDD7309FA7A58D930F8BFA75098DDC3/app_dfu_package/BP_application.bin
+<vApplicationStackOverflowHook> pcTaskName: %s
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+RTOS task %s stack overflow
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_45_1_69/fw-qcpr-sensor-mk3_release_0.45.1.69.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+RTOS task %s stack overflow
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_47_1_72/fw-qcpr-sensor-mk3_release_0.47.1.72.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+RTOS task %s stack overflow
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_48_1_77/fw-qcpr-sensor-mk3_release_0.48.1.77.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/695AE08A836771374F4CC7ECAFC735310DB8E37503B5A037901B98769FF75278/fw_resusci_family_main_1_7_0_111/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_resusci_family_main_1_5_0_97/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_resusci_family_main_1_2_0_56/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/695AE08A836771374F4CC7ECAFC735310DB8E37503B5A037901B98769FF75278/fw_resusci_family_main_1_8_0_122/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_resusci_family_main_1_3_0_79/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+nordic/nrf52832_xxaa.bin@030448d2b1faf6deacbcc6274057828f
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@030448d2b1faf6deacbcc6274057828f
+ERR: stack ovf
+
+nordic/nrf52832_xxaa.bin@14325a9d1ef867d300aca33e055f5952
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@14325a9d1ef867d300aca33e055f5952
+ERR: stack ovf
+
+nordic/nrf52832_xxaa.bin@78187557902d12571d98e31bb0b92e6d
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@78187557902d12571d98e31bb0b92e6d
+ERR: stack ovf
+
+nordic/nrf52832_xxaa.bin@7dcf1faea39cd18b3ea91b94c824e950
+ERR: stack ovf
+
+nordic/nrf52832_xxaa.bin@b46c84584f0f4931565e25780d23d808
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@c37602527d630b71e552b4e068d645fb
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@c37602527d630b71e552b4e068d645fb
+ERR: stack ovf
+
+nordic/nrf52832_xxaa.bin@dfe6e4aa1ecd9c766fd78d6571ad3f15
+ERR: Stack ovf
+
+nordic/nrf52832_xxaa.bin@dfe6e4aa1ecd9c766fd78d6571ad3f15
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/694F422C4D4504BE4EBB5F10F6F249D8F4D46E1015ACCDD4317DCA6A39EE2882/beacon-12_2_69_6_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/457E45C1C5CF018B0C00C938DDAFA40BCD606E39F6E0A61213FAB8311D2A656F/dfu_20191127202548/nrf52840_xxaa.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/3EB3B95A833DD0191BD88D11278D448775E625EE3FD8246D1CA6C64129305825/app_dfu_package_1_1_4/quadpy_app.bin
+Stack Overflow:%s
+
+nordic/sensor.bin@3fce0fc868b7d66ccf5fbf1aae9dff73
+MSTKERR: MemMan error during stacking
+
+nordic/sensor.bin@3fce0fc868b7d66ccf5fbf1aae9dff73
+MUNSTKERR: MemMan error during unstacking
+
+nordic/sensor.bin@3fce0fc868b7d66ccf5fbf1aae9dff73
+STKERR: BusFlt error during stacking
+
+nordic/sensor.bin@3fce0fc868b7d66ccf5fbf1aae9dff73
+UNSTKERR: BusFlt error during unstacking
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t014/trigno_update_v040.024_T014.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t015/trigno_update_v040.024_T015.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t016/trigno_update_v040.024_T016.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t017/trigno_update_v040.024_T017.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t018/trigno_update_v040.024_T018.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t019/trigno_update_v040.024_T019.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t020/trigno_update_v040.024_T020.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t021/trigno_update_v040.024_T021.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t022/trigno_update_v040.024_T022.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t023/trigno_update_v040.024_T023.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t024/trigno_update_v040.024_T024.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t025/trigno_update_v040.024_T025.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t026/trigno_update_v040.024_T026.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t027/trigno_update_v040.024_T027.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_024_t028/trigno_update_v040.024_T028.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_032_t014/trigno_update_v040.032_T014.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_032_t015/trigno_update_v040.032_T015.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_032_t016/trigno_update_v040.032_T016.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_032_t017/trigno_update_v040.032_T017.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_032_t018/trigno_update_v040.032_T018.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t014/trigno_update_v040.034_T014.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t015/trigno_update_v040.034_T015.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t016/trigno_update_v040.034_T016.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t017/trigno_update_v040.034_T017.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t018/trigno_update_v040.034_T018.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t019/trigno_update_v040.034_T019.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t020/trigno_update_v040.034_T020.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t021/trigno_update_v040.034_T021.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t022/trigno_update_v040.034_T022.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t023/trigno_update_v040.034_T023.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t024/trigno_update_v040.034_T024.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t025/trigno_update_v040.034_T025.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t026/trigno_update_v040.034_T026.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t027/trigno_update_v040.034_T027.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_034_t028/trigno_update_v040.034_T028.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t014/trigno_update_v040.036_T014.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t015/trigno_update_v040.036_T015.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t016/trigno_update_v040.036_T016.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t017/trigno_update_v040.036_T017.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t018/trigno_update_v040.036_T018.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t019/trigno_update_v040.036_T019.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t020/trigno_update_v040.036_T020.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t021/trigno_update_v040.036_T021.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t022/trigno_update_v040.036_T022.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t023/trigno_update_v040.036_T023.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t024/trigno_update_v040.036_T024.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t025/trigno_update_v040.036_T025.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t026/trigno_update_v040.036_T026.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t027/trigno_update_v040.036_T027.bin
+Stack Overflow! Task %s
+
+Nordic_DFU/Secure_DFU/6ACFCE08F650FE699DEA555999C125BBFA950112C45DBA46A9F1101E46CA33C8/trigno_update_v040_036_t028/trigno_update_v040.036_T028.bin
+Stack Overflow! Task %s
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+UNSTKERR: Bus Fault caused by Stack Pop
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+STKERR: Bus Fault caused by Stack Push
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+MUNSTKERR: Unstacking Error (RD/WR failed), Stack Pop
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+FMSTKERR: Stacking Error (RD/WR failed), Stack Push
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+E_stackOverflow: Task 0x%x stack overflow.
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+E_spOutOfBounds: Task 0x%x stack error, SP = 0x%x.
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+E_stackOverflow: ISR stack overflow.
+
+ti/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin@603a3da2bb3923292993c7f29e85ee0c
+ERROR: Stack Overflow detected at %$F.
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+UNSTKERR: Bus Fault caused by Stack Pop
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+STKERR: Bus Fault caused by Stack Push
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+MUNSTKERR: Unstacking Error (RD/WR failed), Stack Pop
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+FMSTKERR: Stacking Error (RD/WR failed), Stack Push
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+E_stackOverflow: Task 0x%x stack overflow.
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+E_spOutOfBounds: Task 0x%x stack error, SP = 0x%x.
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+E_stackOverflow: ISR stack overflow.
+
+ti/ble5_project_zero_cc26x2r1lp_app_FlashROM_Debug_oad.bin@c76f8c92eabc2113d7901394ca7c9747
+ERROR: Stack Overflow detected at %$F.
+
+dialog/prod_1.3.5.img@14e5799d751a33a78d795726df7e1b7f
+vApplicationStackOverflowHook
+
+dialog/prod_1.3.7.img@bb6df16e134a34151883c49e8b87efba
+vApplicationStackOverflowHook
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/8960E504A3D539B6FA3C47B2BA7256D5DC4B8DB6500E5139E9A36980C2603911/drum/PocketDrum.bin
+*** stack smashing detected ***: terminated
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/F0EE2166A5244CFC5A9EB567888CDBB411C37B0ED8458783D2E3ECF08F9CFFAE/beacon-12_2_73_0_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4A3607093A6A456BCC776E7D6DA115388894C1825F2D80A0B0E34B30274B7806/jA/DOG-120b_DOG-2600_9f6150.bin
+STACKOVERFLOW
+
+Nordic_DFU/Secure_DFU/4A3607093A6A456BCC776E7D6DA115388894C1825F2D80A0B0E34B30274B7806/t6/CAT-120b_CAT-2600_9f6150.bin
+STACKOVERFLOW
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/2877F5AF1758806CDBDD6E2661410E69E6780FB8044F79EC44F59FC9832B48C2/MTTX20_V0.2.4/VisitOnDianaMTTX.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-167/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-167/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-24/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-24/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-166/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-166/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-152/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-152/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/factory_fw_v0.0-10/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-189/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-189/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-45/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/F127164E838C5DE10E9B6F6793E079C61FB5A5A569E6CAB09B17B325DF127BE6/fw_v0.7-45/nrf52832_xxaa.bin
+ERR: stack ovf
+
+Nordic_DFU/Secure_DFU/6A09476F9C9EC401FC767328518627D926C95D7B56A7E9A05ED333A9A6A98929/firmware_v2_57/app_lib_r.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/6A09476F9C9EC401FC767328518627D926C95D7B56A7E9A05ED333A9A6A98929/firmware_v3_41/app_lib_r.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+RTOS task %s stack overflow
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_65_1_103/fw-qcpr-sensor-mk3-lb_release_0.65.1.103.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/695AE08A836771374F4CC7ECAFC735310DB8E37503B5A037901B98769FF75278/fw_resusci_family_main_1_9_1_126/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+RTOS task %s stack overflow
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_little_baby_main_0_53_1_85/fw-qcpr-sensor-mk3_release_0.53.1.85.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/01551BD758AD36134FDD93167C6C075BECBB25C1BE93AE731BE2F7EC4374419F/dfu.3.0.0/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/6A27B95C8EB2FF895C3FB8B08029B2CE2395CB9E26E7329F1E254B1D801F9A23/authealth_1_9_4/Movesense.bin
+STACK CORRUPTION
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Bus fault is caused by stacking error
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Memory management fault is caused by stacking error
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Bus fault is caused by unstacking error
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Memory management fault is caused by unstacking error
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Dump call stack has an error
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Error: Thread stack(%08x) was overflow
+
+Nordic_DFU/Secure_DFU/070B89544893BFC5369D9E890A4BD5BA636BBDB8F2A67C9E6B95AC018377B57A/D0002C18B-7_Console_APP_A03_A26_A06/nrf52832_xxaa.bin
+Error: Main stack(%08x) was overflow
+
+Nordic_DFU/Secure_DFU/D04F51CA4FC3211EF1C63E478A2E92661406F9F8D0CFA49329E7D7CBD4BFA032/3.2.8_OTA/Movesense.bin
+STACK CORRUPTION
+
+Nordic_DFU/Secure_DFU/ABA631F109325A8CA654B2731EBB57B7EE921C57371AD23650BDF0B3626E6DF0/dfu_20200507204144/nrf52840_xxaa.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4A267D2485235CC5860FE09ED3E93294E94C6CB1191658E5ED4F6707BCCDBD38/beacon-12_2_69_3_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/EFC624833DCB3DA0D6D5F9C2F8D75D4AD4AFE57752DAE334F0F720CB474597AD/dfu.2.1.3/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/67AFF9A3DD122F9CFA2A65372A878BA36486AD0739C7963F50C1B7495660D36A/Hr/app_lib_r.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/67AFF9A3DD122F9CFA2A65372A878BA36486AD0739C7963F50C1B7495660D36A/X3/app_lib_r.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/67AFF9A3DD122F9CFA2A65372A878BA36486AD0739C7963F50C1B7495660D36A/kB/app_lib_r.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/D2A990690EE31D38AF5E08C255FF4517C20A71281EA293E5704D0FF5C0D09779/dfu.2.1.7/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4AF524204B27058E8CE8137481DFEE346826E326B169E2C40D69F4DC1930CF85/fw_nnp_0_4_0_0/NeonataliePlus.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/48E3D444932FA7C0E536FD4EF8F8F0E6C5D8110197C4DA188FA4C70C0620217D/release_8_33/app.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/B02F7EB4F891A7FA781AC817AC8DE19FC8AC6561C347D5A65C2BE39C59840CE8/nrf52832_xxaa_sdk153_s132_sdb7_dongle/nrf52832_xxaa_.bin
+Write StackErr %08X
+
+Nordic_DFU/Secure_DFU/B02F7EB4F891A7FA781AC817AC8DE19FC8AC6561C347D5A65C2BE39C59840CE8/nrf52832_xxaa_sdk153_s132_sdb7_dongle/nrf52832_xxaa_.bin
+Write Error Stack end.
+
+Nordic_DFU/Secure_DFU/B02F7EB4F891A7FA781AC817AC8DE19FC8AC6561C347D5A65C2BE39C59840CE8/nrf52832_xxaa_sdk153_s132_sdb7_dongle/nrf52832_xxaa_.bin
+g_flashErrorStack: %08X %08X %08x %08X
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/0105B84685E31DCB4EBBD34BFA5B89D1E44ECBE57A97F0CADAE5E0B0A990ED5B/fw_nnp_0_4_0_4/NeonataliePlus.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+The BLE stack has stopped advertising.
+
+Nordic_DFU/Secure_DFU/24F211D835D455187D5554DB3653A012F27F0DD62400DAB20961C6B1804F45DF/beacon-12_2_68_26_bootloader_app_softdevice-dfu/nrf52840_xxaa.bin
+> The BLE stack has stopped advertising.
+
+Nordic_DFU/Secure_DFU/07D2E22D6642E6EA8EE2947F05E28B3742667A6D7E2D69D31F919B820C9A0049/ring_beams_c40_debug_signed_sec_enabled_v1/ring-beams-c40-sec-enabled-debug.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/07D2E22D6642E6EA8EE2947F05E28B3742667A6D7E2D69D31F919B820C9A0049/output_v1_sec_21/ring-beams-c40-sec-enabled-debug (10).bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/6987497411E78FDC7B84F32918A870EEF7CB90FFE6239C1659A80FCCF0996BCC/hw1_blv4_appv11/nrf52840_xxaa.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/6987497411E78FDC7B84F32918A870EEF7CB90FFE6239C1659A80FCCF0996BCC/hw1_blv4_appv11/nrf52840_xxaa.bin
+Stack overflow detected.
+
+Nordic_DFU/Secure_DFU/6987497411E78FDC7B84F32918A870EEF7CB90FFE6239C1659A80FCCF0996BCC/hw1_blv4_appv11/nrf52840_xxaa.bin
+Stack overflow detected
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/4801C469E8F01EB3EF0F73855BC514CA400D8A88211AACD6E9A8FAE59EBED38B/dfu.1.23/nrf52840_xxaa.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Data bus error (PC value stacked for the exception return points to the instruction that caused the fault)
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Data bus error (return address in the stack frame is not related to the instruction that caused the error)
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Unstack for an exception return has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Stacking for an exception entry has caused one or more access violations
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Unstack for an exception return has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Stacking for an exception entry has caused one or more BusFaults
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Stack violation: stack pointer outside stack area.
+
+Nordic_DFU/Secure_DFU/6821A265BE7233D0BECC820D30BE84FA6D8DF052E4641F9BDEFA5AA8BEFEADD8/pyro_fw_v01_00/digipyro.bin
+Stack overflow '%s'
+
+Nordic_DFU/Secure_DFU/4765C8408B8DEE397547EDCACB014D0218E5DFB6C66CC936AFB72F9985CF65C1/fw_resusci_family_main_1_12_0_151/fw_resusci_main_board_upgrade_image.bin
+CMSIS-RTOS error: Stack underflow (status: 0x%X, task ID: 0x%X, task name: %s)
+
+Nordic_DFU/Secure_DFU/AB1FAA65B101E0F420AF5A2FE109CB436856C4B311BDE528216F1F5FE5E29404/movesense_dfu_s/Movesense.bin
+STACK CORRUPTION
+
+Nordic_DFU/Secure_DFU/AB1FAA65B101E0F420AF5A2FE109CB436856C4B311BDE528216F1F5FE5E29404/movesense_dfu_bootloader/Movesense.bin
+STACK CORRUPTION
+
+
+Total: 1793
+Found: 225

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "NRF_52832_xxaa.bin",
+            "dat_file": "NRF_52832_xxaa.dat"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "nimbus_firmware.bin",
+            "dat_file": "nimbus_firmware.dat"
+        }
+    }
+}

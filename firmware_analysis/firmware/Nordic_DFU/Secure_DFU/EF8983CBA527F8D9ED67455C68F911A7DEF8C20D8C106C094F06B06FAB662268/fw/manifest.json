@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "myEqua_hw_083_fw_b8.bin",
+            "dat_file": "myEqua_hw_083_fw_b8.dat"
+        }
+    }
+}

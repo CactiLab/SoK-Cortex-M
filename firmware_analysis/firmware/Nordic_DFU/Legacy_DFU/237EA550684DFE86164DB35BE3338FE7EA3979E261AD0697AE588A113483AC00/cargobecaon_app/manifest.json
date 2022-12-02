@@ -1,0 +1,20 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Cargobecaon-app-0.6.0.bin",
+            "dat_file": "Cargobecaon-app-0.6.0.dat",
+            "init_packet_data": {
+                "application_version": 4294967295,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 20480,
+                "softdevice_req": [
+                    79,
+                    90,
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "botell_production.bin",
+            "dat_file": "botell_production.dat"
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "sensu_nRF51_301.bin",
+            "dat_file": "sensu_nRF51_301.dat",
+            "init_packet_data": {
+                "application_version": 1,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 64360,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        },
+        "dfu_version": 0.5
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "Edge_M_v102.bin",
+            "dat_file": "Edge_M_v102.dat"
+        }
+    }
+}

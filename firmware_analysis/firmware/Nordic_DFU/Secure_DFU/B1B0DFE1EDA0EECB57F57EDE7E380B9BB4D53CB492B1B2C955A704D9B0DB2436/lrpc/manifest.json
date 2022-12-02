@@ -1,0 +1,8 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "lrpc_release.bin",
+            "dat_file": "lrpc_release.dat"
+        }
+    }
+}

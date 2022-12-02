@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "ble_app_lampe_32k.bin",
+            "dat_file": "ble_app_lampe_32k.dat",
+            "init_packet_data": {
+                "application_version": 65535,
+                "device_revision": 65535,
+                "device_type": 65535,
+                "firmware_crc16": 49757,
+                "softdevice_req": [
+                    100
+                ]
+            }
+        }
+    }
+}

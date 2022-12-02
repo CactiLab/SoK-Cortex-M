@@ -1,0 +1,17 @@
+{
+    "manifest": {
+        "application": {
+            "bin_file": "project.bin",
+            "dat_file": "project.dat",
+            "init_packet_data": {
+                "application_version": 255,
+                "device_revision": 1,
+                "device_type": 1,
+                "firmware_crc16": 14593,
+                "softdevice_req": [
+                    65534
+                ]
+            }
+        }
+    }
+}
