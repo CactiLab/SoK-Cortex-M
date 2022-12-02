@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\out\blinky.o"
+".\out\stdout_usart.o"
+".\out\test.o"
+".\out\test_cases.o"
+".\out\buttons_v2m-mps2.o"
+".\out\glcd_fonts.o"
+".\out\glcd_v2m-mps2.o"
+".\out\led_v2m-mps2.o"
+".\out\touch_v2m-mps2.o"
+".\out\usart_v2m-mps2.o"
+".\out\retarget_io.o"
+".\out\startup_cmsdk_cm3.o"
+".\out\system_cmsdk_cm3.o"
+--library_type=microlib --strict --scatter ".\Out\Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Out\Blinky.map" -o .\Out\Blinky.axf

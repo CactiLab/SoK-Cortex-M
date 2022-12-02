@@ -51,3 +51,15 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Other files
+*.DS_Store
+*.vs
+**Listings
+**Objects
+**EventRecorderStub.scvd
+**.uvoptx
+*.uvoptx
+**Debug
+CM3_Blinky/Out/*
+Blinky/Out/*

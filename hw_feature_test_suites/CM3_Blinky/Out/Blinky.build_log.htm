@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Xi Tan, University at Buffalo, LIC=8MZLP-6E01V-ILZYM-F9L7B-QL62Z-JQCWP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.32.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.12.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\minta\Documents\Github\cortex-m-tz-mpu\Blinky\Blinky.uvprojx
+Project File Date:  08/13/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'V2M-MPS2'
+test_cases.c(5): warning: In file included from...
+./test.h(350): warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+void memcpy(void *dest, void *src, int n);
+     ^
+./test.h(350): note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+1 warning generated.
+compiling test_cases.c...
+Blinky.c(19): warning: In file included from...
+./test.h(350): warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+void memcpy(void *dest, void *src, int n);
+     ^
+./test.h(350): note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+1 warning generated.
+compiling Blinky.c...
+test.c(5): warning: In file included from...
+./test.h(350): warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+void memcpy(void *dest, void *src, int n);
+     ^
+./test.h(350): note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned int)'
+test.c(519): warning: assigning to 'ELAPSED_TIME *' (aka 'struct elapsed_time *') from 'volatile ELAPSED_TIME *' (aka 'volatile struct elapsed_time *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   p_tbl = &elapsed_time_tbl[i];
+         ^ ~~~~~~~~~~~~~~~~~~~~
+test.c(536): warning: assigning to 'ELAPSED_TIME *' (aka 'struct elapsed_time *') from 'volatile ELAPSED_TIME *' (aka 'volatile struct elapsed_time *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   p_tbl = &elapsed_time_tbl[i];
+         ^ ~~~~~~~~~~~~~~~~~~~~
+test.c(547): warning: assigning to 'ELAPSED_TIME *' (aka 'struct elapsed_time *') from 'volatile ELAPSED_TIME *' (aka 'volatile struct elapsed_time *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   p_tbl = &elapsed_time_tbl[i];
+         ^ ~~~~~~~~~~~~~~~~~~~~
+test.c(557): warning: incompatible pointer types initializing 'sDwtCompCfg *' with an expression of type 'volatile uint32_t *' (aka 'volatile unsigned int *') [-Wincompatible-pointer-types]
+        sDwtCompCfg *COMP_CONFIG = &DWT->COMP0;
+                     ^             ~~~~~~~~~~~
+test.c(567): warning: incompatible pointer types initializing 'sDwtCompCfg *' with an expression of type 'volatile uint32_t *' (aka 'volatile unsigned int *') [-Wincompatible-pointer-types]
+        sDwtCompCfg *COMP_CONFIG = &DWT->COMP0;
+                     ^             ~~~~~~~~~~~
+test.c(780): warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+   memset((void *)MTB->BASE, 0x0, mtb_size);
+   ^
+test.c(780): note: include the header <string.h> or explicitly provide a declaration for 'memset'
+7 warnings generated.
+compiling test.c...
+linking...
+Program Size: Code=8724 RO-data=6488 RW-data=172 ZI-data=1180  
+".\Out\Blinky.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: USART Version: 2.4.0
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: User Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.12.0.pack
+                Keil.MDK-Middleware.7.12.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Buttons Version: 1.0.0
+   * Component: Graphic LCD Version: 1.0.0
+   * Component: LED Version: 1.0.0
+   * Component: Touchscreen Version: 1.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.V2M-MPS2_CMx_BSP.1.7.1.pack
+                Keil.V2M-MPS2_CMx_BSP.1.7.1
+                ARM V2M-MPS2 Board Support PACK for Cortex-M System Design Kit Devices
+   * Component: Buttons Version: 2.0.0
+   * Component: Common Version: 2.0.0
+   * Component: Graphic LCD Version: 2.0.0
+   * Component: LED Version: 2.0.0
+   * Component: Touchscreen Version: 2.0.0
+   * Component: USART Version: 1.0.3
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\CMSDK_CM3
+  .\RTE\_V2M-MPS2
+  C:\Users\minta\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\minta\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Driver\Include
+  C:\Users\minta\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board
+  C:\Users\minta\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.1\Boards\ARM\V2M-MPS2\Common
+  C:\Users\minta\AppData\Local\Arm\Packs\Keil\V2M-MPS2_CMx_BSP\1.7.1\Device\CMSDK_CM3\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Buttons:1.0.0 (API)
+      Include file:  Board\Board_Buttons.h
+
+   * Component: ::Board Support:Graphic LCD:1.0.0 (API)
+      Include file:  Board\Board_GLCD.h
+
+   * Component: ::Board Support:LED:1.0.0 (API)
+      Include file:  Board\Board_LED.h
+
+   * Component: ::Board Support:Touchscreen:1.0.1 (API)
+      Include file:  Board\Board_Touch.h
+
+   * Component: ::CMSIS Driver:USART:2.4.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.2.0
+      Source file:   Template\stdout_display.c
+      Source file:   Template\stdout_user.c
+      Source file:   Template\stdout_USART.c
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil.V2M-MPS2::Board Support:Buttons:2.0.0
+      Source file:   Boards\ARM\V2M-MPS2\Common\Buttons_V2M-MPS2.c
+
+   * Component: Keil.V2M-MPS2::Board Support:Common:2.0.0
+      Include file:  Boards\ARM\V2M-MPS2\Common\SMM_MPS2.h
+      Include file:  Boards\ARM\V2M-MPS2\Common\Device.h
+
+   * Component: Keil.V2M-MPS2::Board Support:Graphic LCD:2.0.0
+      Source file:   Boards\ARM\V2M-MPS2\Common\GLCD_V2M-MPS2.c
+      Include file:  Boards\ARM\V2M-MPS2\Common\GLCD_Config.h
+      Source file:   Boards\ARM\V2M-MPS2\Common\GLCD_Fonts.c
+
+   * Component: Keil.V2M-MPS2::Board Support:LED:2.0.0
+      Source file:   Boards\ARM\V2M-MPS2\Common\LED_V2M-MPS2.c
+
+   * Component: Keil.V2M-MPS2::Board Support:Touchscreen:2.0.0
+      Source file:   Boards\ARM\V2M-MPS2\Common\Touch_V2M-MPS2.c
+
+   * Component: Keil::CMSIS Driver:USART:1.0.3
+      Source file:   CMSIS\Driver\USART_V2M-MPS2.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\CMSDK_CM3\Source\ARM\startup_CMSDK_CM3.s
+      Source file:   Device\CMSDK_CM3\Source\system_CMSDK_CM3.c
+      Include file:  CMSIS\Config\RTE_Device.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
