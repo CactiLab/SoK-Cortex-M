@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.0/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  aria: {
+    enabled: true,
+    decal: {
+      show: true,
+        decal: {
+          // color: '#C82423',
+          dashArrayX: [1, 0],
+          dashArrayY: [2, 5],
+          symbolSize: 1,
+          rotation: Math.PI / 1.5,
+        },
+    }
+  },
+  itemStyle: {
+    decal: {
+      // color: '#C82423',
+      dashArrayX: [1, 0],
+      dashArrayY: [2, 5],
+      symbolSize: 1,
+      rotation: Math.PI / 1.5,
+    },      
+  },
+  legend: 
+  {
+    data: [
+      
+      'Hardware Limitations (\u00A74.1)',
+      'Hardware Issues (\u00A74.2)',
+      'Software Architectural Issues (\u00A75.2)',
+      'Bugs on Real-world Systems (\u00A76)',
+      'Security Research (\u00A77)',
+    ],
+    left: '5%',
+    bottom: '5%',
+    orient: 'vertical',
+    itemWidth: 20,
+    itemHeight: 30,
+    itemGap: 15,
+    icon: 'rect',
+    textStyle: {
+      color: 'black',
+      fontSize: 28,
+      fontFamily: 'times'
+    },
+  },
+  series: [
+  {
+    name: 'Hardware Limitations (\u00A74.1)',
+    color: '#c82423',
+    type: 'sankey',
+    layout: 'none',
+    layoutIterations: 0,
+    right: '27%',
+    emphasis: {
+    focus: 'adjacency'
+    },
+    label: {
+      fontSize: 28,
+      fontFamily: 'times',
+      // fontStyle: 'bold',
+      // fontWeight: 'bold',
+      // textBorderWidth: 1,
+      textBorderColor: '#000000',
+      // textBorderType: 'solid'
+    },
+    levels: [
+    {
+      depth: 0,
+      itemStyle: {
+          color: '#c82423'
+      },
+      lineStyle: {
+          color: 'gradient',
+          opacity: 0.5
+      }
+    }, {
+      depth: 1,
+      itemStyle: {
+          color: '#f8ac8c'
+      },
+      lineStyle: {
+          color: 'gradient',
+          opacity: 0.5
+      }
+    }, 
+    {
+      depth: 2,
+      itemStyle: {
+          color: '#54B345',
+      },
+      label: {
+        position: 'right'
+      },
+      lineStyle: {
+          color: 'gradient',
+          opacity: 0.5
+      }
+    }
+    ],
+    lineStyle: {
+      color: 'gradient',
+      curveness: 0.5
+    },
+    data: [
+      {name: 'L01. No memory virtualization', depth: 0}, {name: 'L02. No IOMMU', depth: 0, itemStyle: {color: '#c82423'}},
+      {name: 'L03. A small number of MPU regions and limited sizes', depth: 0}, 
+      {name: 'L04. A small number of SAU regions', depth: 0},
+      {name: 'L05. No intrinsic encryption to protect the secure ...', depth: 0}, 
+      // {name: 'L06. Lack of intrinsic support for multi-TEEs', depth: 0, itemStyle: {color: '#79b8b9'}}, 
+      {name: 'L06. Lack of intrinsic support for multi-TEEs', depth: 1, itemStyle: {color: '#c82423'}}, 
+      {name: 'L07. Lack of hardware-based remote attestation ...', depth: 1, itemStyle: {color: '#c82423'}},
+      
+      {name: 'I01. Information leakage to the non-secure state ...', depth: 1, itemStyle: {color: '#ff8884'}},
+      {name: 'I02. Improper privilege management for inter-processor ...', depth: 1, itemStyle: {color: '#ff8884'}},
+      {name: 'I03. Improper privilege management in vendor-specific ...', depth: 1, itemStyle: {color: '#ff8884'}},
+      {name: 'I04. Bypassable vendor-specific readback protection', depth: 1, itemStyle: {color: '#ff8884'}},
+      
+      {name: 'I05. No or weak privilege separation', depth: 1},
+      {name: 'I06. SVC misuse', depth: 1},
+      {name: 'I07. No or weak stack separation', depth: 1},
+      {name: 'I08. Secure state exception stack frame manipulation', depth: 1},
+      {name: 'I09. No or weak memory access control; executable stack', depth: 1},
+      {name: 'I10. Missing readback protection', depth: 1},
+      {name: 'I11. No or weak stack canary', depth: 1},
+      {name: 'I12. No or weak guards between memory segments', depth: 1},
+      {name: 'I13. Missing barrier instructions', depth: 1},
+      {name: 'I14 - I21. Validation/Functional bugs', depth: 1, itemStyle: {color: '#ffbe7a'}},
+      {name: 'I22. Software side-channels', depth: 1, itemStyle: {color: '#ffbe7a'}},
+      
+      {name: 'D01. Privilge Separation', depth: 2},
+      {name: 'D02. Compartmentalization', depth: 2},
+      {name: 'D03. DMA-enabled compartmentalization', depth: 2},
+      {name: 'D04. Software-based virtualization', depth: 2},  
+      {name: 'D05. TrustZone-based virtualization', depth: 2},   
+      {name: 'D06. Real-time and secure TrustZone-assisted ...', depth: 2}, 
+      {name: 'D07. TrustZone-assisted multi-world system', depth: 2},
+      {name: 'D08. Secure cross-state communication', depth: 2},
+      {name: 'D09. Stack and return address integrity', depth: 2},
+      {name: 'D10. Forward-edge CFI', depth: 2},
+      {name: 'D11. Compiler-based software diversity', depth: 2},
+      {name: 'D12. Address space layout randomization', depth: 2},
+      {name: 'D13. ROP gadget removal', depth: 2},
+      {name: 'D14. Secure multiprogramming with memory ...', depth: 2},
+      {name: 'D15. Software-based XOM', depth: 2},
+      {name: 'D16. Software-based control-flow ...', depth: 2},
+      {name: 'D17 - D18. Firmware update', depth: 2},
+      {name: 'D19 - D22. Vulnerability discovery', depth: 2}, 
+      // {name: 'stack sealing', depth: 2},  
+      {name: 'No papers', depth: 2, itemStyle: {color: '#999999'}},
+    ],
+    links: [
+      {source: 'L01. No memory virtualization', target: 'I05. No or weak privilege separation', value: 1},
+      {source: 'L01. No memory virtualization', target: 'I07. No or weak stack separation', value: 1},
+      {source: 'L01. No memory virtualization', target: 'I09. No or weak memory access control; executable stack', value: 1},
+      {source: 'L01. No memory virtualization', target: 'I11. No or weak stack canary', value: 1},
+      {source: 'L01. No memory virtualization', target: 'I12. No or weak guards between memory segments', value: 1},
+      {source: 'L02. No IOMMU', target: 'I05. No or weak privilege separation', value: 1},
+
+      {source: 'L03. A small number of MPU regions and limited sizes', target: 'I05. No or weak privilege separation', value: 1},
+      {source: 'L03. A small number of MPU regions and limited sizes', target: 'I07. No or weak stack separation', value: 1},
+      {source: 'L03. A small number of MPU regions and limited sizes', target: 'I09. No or weak memory access control; executable stack', value: 1},
+      {source: 'L03. A small number of MPU regions and limited sizes', target: 'I12. No or weak guards between memory segments', value: 1},
+      {source: 'L04. A small number of SAU regions', target: 'I01. Information leakage to the non-secure state ...', value: 1},
+      {source: 'L04. A small number of SAU regions', target: 'I09. No or weak memory access control; executable stack', value: 1},
+      {source: 'L05. No intrinsic encryption to protect the secure ...', target: 'I01. Information leakage to the non-secure state ...', value: 1},
+      {source: 'L05. No intrinsic encryption to protect the secure ...', target: 'I09. No or weak memory access control; executable stack', value: 1},
+      {source: 'L06. Lack of intrinsic support for multi-TEEs', target: 'D07. TrustZone-assisted multi-world system', value: 1},
+      {source: 'L07. Lack of hardware-based remote attestation ...', target: 'D16. Software-based control-flow ...', value: 1},
+      
+      {source: 'I01. Information leakage to the non-secure state ...', target: 'D05. TrustZone-based virtualization', value: 1},
+      {source: 'I01. Information leakage to the non-secure state ...', target: 'D06. Real-time and secure TrustZone-assisted ...', value: 1},
+      {source: 'I01. Information leakage to the non-secure state ...', target: 'D07. TrustZone-assisted multi-world system', value: 1},
+      {source: 'I01. Information leakage to the non-secure state ...', target: 'D08. Secure cross-state communication', value: 1},
+      
+      {source: 'I02. Improper privilege management for inter-processor ...', target: 'No papers', value: 1}, 
+      {source: 'I03. Improper privilege management in vendor-specific ...', target: 'No papers', value: 1}, 
+      {source: 'I04. Bypassable vendor-specific readback protection', target: 'No papers', value: 1}, 
+      
+      {source: 'I05. No or weak privilege separation', target: 'D01. Privilge Separation', value: 1},
+      {source: 'I05. No or weak privilege separation', target: 'D02. Compartmentalization', value: 1},
+      {source: 'I05. No or weak privilege separation', target: 'D03. DMA-enabled compartmentalization', value: 1},
+      {source: 'I05. No or weak privilege separation', target: 'D04. Software-based virtualization', value: 1},
+      {source: 'I05. No or weak privilege separation', target: 'D14. Secure multiprogramming with memory ...', value: 1},
+
+      {source: 'I06. SVC misuse', target: 'D01. Privilge Separation', value: 1},
+      {source: 'I06. SVC misuse', target: 'D02. Compartmentalization', value: 1},
+      {source: 'I07. No or weak stack separation', target: 'No papers', value: 1},
+      // {source: 'I07. No or weak stack separation', target: 'D11. Compiler-based software diversity', value: 1},
+      // {source: 'I07. No or weak stack separation', target: 'D12. Address space layout randomization', value: 1},
+      {source: 'I08. Secure state exception stack frame manipulation', target: 'No papers', value: 1},
+      
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D02. Compartmentalization', value: 1}, 
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D03. DMA-enabled compartmentalization', value: 1}, 
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D04. Software-based virtualization', value: 1},
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D09. Stack and return address integrity', value: 1},  
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D10. Forward-edge CFI', value: 1}, 
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D14. Secure multiprogramming with memory ...', value: 1},   
+      {source: 'I09. No or weak memory access control; executable stack', target: 'D15. Software-based XOM', value: 1},  
+      {source: 'I10. Missing readback protection', target: 'No papers', value: 1},  
+      {source: 'I11. No or weak stack canary', target: 'No papers', value: 1},
+      {source: 'I12. No or weak guards between memory segments', target: 'No papers', value: 1},
+      {source: 'I13. Missing barrier instructions', target: 'No papers', value: 1},
+      
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D09. Stack and return address integrity', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D10. Forward-edge CFI', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D11. Compiler-based software diversity', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D12. Address space layout randomization', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D13. ROP gadget removal', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D17 - D18. Firmware update', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D19 - D22. Vulnerability discovery', value: 1},
+      {source: 'I14 - I21. Validation/Functional bugs', target: 'D14. Secure multiprogramming with memory ...', value: 1},
+      
+      {source: 'I22. Software side-channels', target: 'No papers', value: 1},
+    ]
+  },
+  {
+    name: 'Hardware Issues (\u00A74.2)',
+    color: '#ff8884',
+    type: 'sankey',
+    data: [],
+    links: []
+  },
+  {
+    name: 'Software Architectural Issues (\u00A75.2)',
+    color: '#f8ac8c',
+    type: 'sankey',
+    data: [],
+    links: []
+  },
+  {
+    name: 'Bugs on Real-world Systems (\u00A76)',
+    color: '#ffbe7a',
+    type: 'sankey',
+    data: [],
+    links: []
+  },
+  {
+    name: 'Security Research (\u00A77)',
+    color: '#54B345',
+    type: 'sankey',
+    data: [],
+    links: []
+  }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
