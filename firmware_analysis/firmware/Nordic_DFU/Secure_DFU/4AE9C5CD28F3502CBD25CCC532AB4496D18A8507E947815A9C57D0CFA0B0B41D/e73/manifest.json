@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "gf01mc_E73_s140.bin",
-            "dat_file": "gf01mc_E73_s140.dat"
-        }
-    }
-}

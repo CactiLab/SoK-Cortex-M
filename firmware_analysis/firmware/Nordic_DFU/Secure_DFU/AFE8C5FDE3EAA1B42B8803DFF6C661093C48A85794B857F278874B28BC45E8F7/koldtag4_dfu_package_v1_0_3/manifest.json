@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "app_nrf52840_xxaa_s140_tagger4.bin",
-            "dat_file": "app_nrf52840_xxaa_s140_tagger4.dat"
-        }
-    }
-}

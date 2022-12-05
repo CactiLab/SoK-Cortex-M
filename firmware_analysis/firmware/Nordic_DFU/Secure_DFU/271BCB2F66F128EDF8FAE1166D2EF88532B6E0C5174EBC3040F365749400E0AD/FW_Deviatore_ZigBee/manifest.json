@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "P406_Deviatore_Zigbee.bin",
-            "dat_file": "P406_Deviatore_Zigbee.dat"
-        }
-    }
-}

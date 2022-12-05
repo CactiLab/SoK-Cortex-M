@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "FlexTimer2.bin",
-            "dat_file": "FlexTimer2.dat"
-        }
-    }
-}

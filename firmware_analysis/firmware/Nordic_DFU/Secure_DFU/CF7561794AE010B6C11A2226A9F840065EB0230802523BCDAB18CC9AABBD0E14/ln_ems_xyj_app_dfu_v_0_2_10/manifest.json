@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ble_app_ln_ems_sss_v_0_01.bin",
-            "dat_file": "ble_app_ln_ems_sss_v_0_01.dat"
-        }
-    }
-}

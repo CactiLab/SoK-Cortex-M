@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "fiit_hrm.bin",
-            "dat_file": "fiit_hrm.dat"
-        }
-    }
-}

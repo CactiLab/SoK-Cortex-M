@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "nrf_stm.bin",
-            "dat_file": "nrf_stm.dat"
-        }
-    }
-}

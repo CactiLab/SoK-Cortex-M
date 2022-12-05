@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "fw_resusci_junior_ble.bin",
-            "dat_file": "fw_resusci_junior_ble.dat"
-        }
-    }
-}

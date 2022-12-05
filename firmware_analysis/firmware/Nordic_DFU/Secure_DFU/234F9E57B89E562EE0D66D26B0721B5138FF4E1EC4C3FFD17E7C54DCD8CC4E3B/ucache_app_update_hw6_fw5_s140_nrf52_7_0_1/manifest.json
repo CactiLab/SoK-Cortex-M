@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "bluetooth_ucache_nrf52840_hw6_fw5_s140_nrf52_7.0.1.bin",
-            "dat_file": "bluetooth_ucache_nrf52840_hw6_fw5_s140_nrf52_7.0.1.dat"
-        }
-    }
-}

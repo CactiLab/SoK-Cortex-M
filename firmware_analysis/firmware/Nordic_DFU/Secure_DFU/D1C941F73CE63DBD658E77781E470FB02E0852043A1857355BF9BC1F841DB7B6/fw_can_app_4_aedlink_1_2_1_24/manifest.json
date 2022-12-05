@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "fw_can_app_4_aedlink_1.2.1.24.bin",
-            "dat_file": "fw_can_app_4_aedlink_1.2.1.24.dat"
-        }
-    }
-}

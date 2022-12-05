@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "Klever_nrf52832_1.32.bin",
-            "dat_file": "Klever_nrf52832_1.32.dat"
-        }
-    }
-}

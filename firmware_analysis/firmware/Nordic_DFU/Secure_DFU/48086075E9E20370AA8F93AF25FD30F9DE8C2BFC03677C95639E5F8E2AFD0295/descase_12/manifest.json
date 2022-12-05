@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "descase-nordic.bin",
-            "dat_file": "descase-nordic.dat"
-        }
-    }
-}

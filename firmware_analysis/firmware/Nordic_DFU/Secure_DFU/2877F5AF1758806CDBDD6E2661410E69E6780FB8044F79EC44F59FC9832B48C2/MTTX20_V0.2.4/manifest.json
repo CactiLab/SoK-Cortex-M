@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "VisitOnDianaMTTX.bin",
-            "dat_file": "VisitOnDianaMTTX.dat"
-        }
-    }
-}

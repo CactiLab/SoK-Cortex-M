@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "pingpong_robot.bin",
-            "dat_file": "pingpong_robot.dat"
-        }
-    }
-}

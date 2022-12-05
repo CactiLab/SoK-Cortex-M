@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "KEYCO_Kitchen051_r1.bin",
-            "dat_file": "KEYCO_Kitchen051_r1.dat"
-        }
-    }
-}

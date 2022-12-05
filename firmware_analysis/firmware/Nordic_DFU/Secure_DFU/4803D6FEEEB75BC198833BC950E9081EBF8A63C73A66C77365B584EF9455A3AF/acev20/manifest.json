@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ace_nrf52832_xxaa_s332.bin",
-            "dat_file": "ace_nrf52832_xxaa_s332.dat"
-        }
-    }
-}

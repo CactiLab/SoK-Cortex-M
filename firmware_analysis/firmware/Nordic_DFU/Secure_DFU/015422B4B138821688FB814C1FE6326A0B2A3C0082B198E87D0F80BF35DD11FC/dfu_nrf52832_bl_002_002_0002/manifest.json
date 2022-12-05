@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "bootloader": {
-            "bin_file": "nRF52832.bl.002.001.0002.bin",
-            "dat_file": "nRF52832.bl.002.001.0002.dat"
-        }
-    }
-}

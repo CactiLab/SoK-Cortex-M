@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "shapp.bin",
-            "dat_file": "shapp.dat"
-        }
-    }
-}

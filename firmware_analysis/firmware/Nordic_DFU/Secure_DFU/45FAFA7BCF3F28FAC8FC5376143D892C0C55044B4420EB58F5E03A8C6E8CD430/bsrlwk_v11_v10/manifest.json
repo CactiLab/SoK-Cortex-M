@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "bsrlwk_hw11.bin",
-            "dat_file": "bsrlwk_hw11.dat"
-        }
-    }
-}

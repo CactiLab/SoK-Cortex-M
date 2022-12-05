@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "heatx_s132.bin",
-            "dat_file": "heatx_s132.dat"
-        }
-    }
-}

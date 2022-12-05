@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "mas_release.bin",
-            "dat_file": "mas_release.dat"
-        }
-    }
-}

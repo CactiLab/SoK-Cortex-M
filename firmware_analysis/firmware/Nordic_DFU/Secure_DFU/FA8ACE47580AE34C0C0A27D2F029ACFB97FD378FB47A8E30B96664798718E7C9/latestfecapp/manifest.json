@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "fec.bin",
-            "dat_file": "fec.dat"
-        }
-    }
-}

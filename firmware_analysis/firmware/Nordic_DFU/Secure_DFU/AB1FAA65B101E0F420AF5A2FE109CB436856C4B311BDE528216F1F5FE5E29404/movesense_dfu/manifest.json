@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "Movesense.bin",
-            "dat_file": "Movesense.dat"
-        }
-    }
-}

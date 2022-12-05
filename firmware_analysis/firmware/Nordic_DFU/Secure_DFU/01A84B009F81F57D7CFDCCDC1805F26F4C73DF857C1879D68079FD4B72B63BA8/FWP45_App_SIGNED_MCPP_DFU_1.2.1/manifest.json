@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "FWP45_App_DFU_MCPP_Pa_1015v2.bin",
-            "dat_file": "FWP45_App_DFU_MCPP_Pa_1015v2.dat"
-        }
-    }
-}

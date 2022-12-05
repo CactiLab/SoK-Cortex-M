@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "bootloader": {
-            "bin_file": "nrf52832_xxaa_secure_bootloader.bin",
-            "dat_file": "nrf52832_xxaa_secure_bootloader.dat"
-        }
-    }
-}

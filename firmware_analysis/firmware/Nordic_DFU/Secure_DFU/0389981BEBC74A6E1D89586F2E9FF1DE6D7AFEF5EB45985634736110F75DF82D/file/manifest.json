@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "InstantTrace.bin",
-            "dat_file": "InstantTrace.dat"
-        }
-    }
-}

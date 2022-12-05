@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "sentinel_c-detect_app.bin",
-            "dat_file": "sentinel_c-detect_app.dat"
-        }
-    }
-}

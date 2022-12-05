@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "P406_Tapparella_Zigbee.bin",
-            "dat_file": "P406_Tapparella_Zigbee.dat"
-        }
-    }
-}

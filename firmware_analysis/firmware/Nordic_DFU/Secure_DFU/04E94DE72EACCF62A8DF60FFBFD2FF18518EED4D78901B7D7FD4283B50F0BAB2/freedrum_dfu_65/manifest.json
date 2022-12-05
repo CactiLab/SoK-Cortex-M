@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "freedrum.bin",
-            "dat_file": "freedrum.dat"
-        }
-    }
-}

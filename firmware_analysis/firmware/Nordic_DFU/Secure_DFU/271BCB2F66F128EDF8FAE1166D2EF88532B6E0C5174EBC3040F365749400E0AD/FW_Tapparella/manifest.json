@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "P406_Tapparella_Mesh.bin",
-            "dat_file": "P406_Tapparella_Mesh.dat"
-        }
-    }
-}

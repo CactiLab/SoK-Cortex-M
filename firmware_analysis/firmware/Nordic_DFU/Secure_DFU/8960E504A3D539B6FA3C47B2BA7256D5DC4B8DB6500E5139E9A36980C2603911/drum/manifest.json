@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "PocketDrum.bin",
-            "dat_file": "PocketDrum.dat"
-        }
-    }
-}

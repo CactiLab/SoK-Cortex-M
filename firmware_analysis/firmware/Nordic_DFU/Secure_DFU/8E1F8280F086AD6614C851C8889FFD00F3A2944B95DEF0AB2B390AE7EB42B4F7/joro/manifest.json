@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "joro_release.bin",
-            "dat_file": "joro_release.dat"
-        }
-    }
-}

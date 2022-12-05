@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ibb2_application.bin",
-            "dat_file": "ibb2_application.dat"
-        }
-    }
-}

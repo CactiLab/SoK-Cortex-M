@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "pavlok.bin",
-            "dat_file": "pavlok.dat"
-        }
-    }
-}

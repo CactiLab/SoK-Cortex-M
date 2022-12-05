@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "saphe_drive_app_2.0.0_prod.bin",
-            "dat_file": "saphe_drive_app_2.0.0_prod.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "Cue_Application_v0.2.27.bin",
-            "dat_file": "Cue_Application_v0.2.27.dat"
-        }
-    }
-}

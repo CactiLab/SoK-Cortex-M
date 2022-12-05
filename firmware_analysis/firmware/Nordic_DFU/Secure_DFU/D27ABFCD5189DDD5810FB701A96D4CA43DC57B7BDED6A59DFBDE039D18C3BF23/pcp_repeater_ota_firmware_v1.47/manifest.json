@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ble_app_hrs_rscs_relay_pca10040_s132.bin",
-            "dat_file": "ble_app_hrs_rscs_relay_pca10040_s132.dat"
-        }
-    }
-}

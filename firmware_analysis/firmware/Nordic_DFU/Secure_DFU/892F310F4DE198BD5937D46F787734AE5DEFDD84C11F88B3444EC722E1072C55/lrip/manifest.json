@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "LRIP_nRF52_release.bin",
-            "dat_file": "LRIP_nRF52_release.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ble_app_template_ecg_s132.bin",
-            "dat_file": "ble_app_template_ecg_s132.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "9.BLE-Chameleon.bin",
-            "dat_file": "9.BLE-Chameleon.dat"
-        }
-    }
-}

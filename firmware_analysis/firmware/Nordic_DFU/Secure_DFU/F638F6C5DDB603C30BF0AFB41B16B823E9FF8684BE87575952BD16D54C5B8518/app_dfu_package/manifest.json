@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "flir_ml4_ble_app_pca10100_s140.bin",
-            "dat_file": "flir_ml4_ble_app_pca10100_s140.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "P406_Termostato_Zigbee.bin",
-            "dat_file": "P406_Termostato_Zigbee.dat"
-        }
-    }
-}

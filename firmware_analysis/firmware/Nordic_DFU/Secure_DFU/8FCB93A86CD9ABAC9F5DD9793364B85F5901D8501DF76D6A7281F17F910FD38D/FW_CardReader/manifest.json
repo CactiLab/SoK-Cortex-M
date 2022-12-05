@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "P436_FPNFC_Mesh.bin",
-            "dat_file": "P436_FPNFC_Mesh.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "CS200.bin",
-            "dat_file": "CS200.dat"
-        }
-    }
-}

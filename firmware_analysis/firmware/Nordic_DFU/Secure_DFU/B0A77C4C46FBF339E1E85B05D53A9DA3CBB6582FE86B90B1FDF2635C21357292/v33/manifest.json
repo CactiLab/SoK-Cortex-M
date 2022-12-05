@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "hovding_app.bin",
-            "dat_file": "hovding_app.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "digipyro.bin",
-            "dat_file": "digipyro.dat"
-        }
-    }
-}

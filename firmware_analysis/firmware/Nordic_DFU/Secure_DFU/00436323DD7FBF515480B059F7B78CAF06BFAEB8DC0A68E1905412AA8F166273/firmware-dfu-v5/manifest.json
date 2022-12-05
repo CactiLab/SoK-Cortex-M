@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "SFM20R_app_204_EVB.bin",
-            "dat_file": "SFM20R_app_204_EVB.dat"
-        }
-    }
-}

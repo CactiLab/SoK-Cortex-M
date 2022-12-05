@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "lripfl_release.bin",
-            "dat_file": "lripfl_release.dat"
-        }
-    }
-}

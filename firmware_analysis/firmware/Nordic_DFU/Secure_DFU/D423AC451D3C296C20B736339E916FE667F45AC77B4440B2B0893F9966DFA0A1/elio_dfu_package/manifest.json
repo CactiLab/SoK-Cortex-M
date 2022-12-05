@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "elio_nrf52832_xxaa_s132_4.0.bin",
-            "dat_file": "elio_nrf52832_xxaa_s132_4.0.dat"
-        }
-    }
-}

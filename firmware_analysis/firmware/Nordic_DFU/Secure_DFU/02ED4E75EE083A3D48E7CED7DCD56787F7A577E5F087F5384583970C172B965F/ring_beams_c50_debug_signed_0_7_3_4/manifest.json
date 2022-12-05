@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ring-beams-c50-debug.bin",
-            "dat_file": "ring-beams-c50-debug.dat"
-        }
-    }
-}

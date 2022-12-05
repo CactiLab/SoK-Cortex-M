@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "freedrum_nrf52.elf.bin",
-            "dat_file": "freedrum_nrf52.elf.dat"
-        }
-    }
-}

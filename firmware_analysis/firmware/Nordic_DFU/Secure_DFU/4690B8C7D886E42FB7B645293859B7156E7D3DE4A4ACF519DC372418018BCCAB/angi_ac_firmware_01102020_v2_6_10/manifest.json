@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "SHS_v2_6_10.bin",
-            "dat_file": "SHS_v2_6_10.dat"
-        }
-    }
-}

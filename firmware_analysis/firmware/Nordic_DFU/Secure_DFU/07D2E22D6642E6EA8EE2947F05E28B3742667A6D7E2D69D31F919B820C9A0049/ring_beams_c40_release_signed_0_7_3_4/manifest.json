@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "ring-beams-c40-release.bin",
-            "dat_file": "ring-beams-c40-release.dat"
-        }
-    }
-}

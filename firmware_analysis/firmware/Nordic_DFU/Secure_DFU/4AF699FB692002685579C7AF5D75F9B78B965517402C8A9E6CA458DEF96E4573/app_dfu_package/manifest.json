@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "WAppApp.bin",
-            "dat_file": "WAppApp.dat"
-        }
-    }
-}

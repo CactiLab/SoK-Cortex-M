@@ -1,1 +1,0 @@
-{"manifest": {"dfu_version": 0.5, "softdevice_bootloader": {"init_packet_data": {"softdevice_req": [65534], "dat_file": "s2fw_011916.dat", "device_revision": 65535, "device_type": 65535, "firmware_crc16": "28751", "application_version": 4294967295}, "bl_size": 132404, "bin_file": "s2fw_011916.bin", "dat_file": "s2fw_011916.dat", "bl_file": "s2fw_011916.bin", "sd_size": 4}}}

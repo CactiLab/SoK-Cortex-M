@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "host.001.002.0003.bin",
-            "dat_file": "host.001.002.0003.dat"
-        }
-    }
-}

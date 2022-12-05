@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "SM5857_191212-02.bin",
-            "dat_file": "SM5857_191212-02.dat"
-        }
-    }
-}

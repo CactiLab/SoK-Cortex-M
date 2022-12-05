@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "Cetus_2_F_v124.bin",
-            "dat_file": "Cetus_2_F_v124.dat"
-        }
-    }
-}

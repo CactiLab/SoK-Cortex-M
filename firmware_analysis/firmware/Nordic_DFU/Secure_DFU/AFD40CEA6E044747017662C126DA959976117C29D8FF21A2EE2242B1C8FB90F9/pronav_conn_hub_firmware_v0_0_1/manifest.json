@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "pronav_hub_pca10040_s132.bin",
-            "dat_file": "pronav_hub_pca10040_s132.dat"
-        }
-    }
-}

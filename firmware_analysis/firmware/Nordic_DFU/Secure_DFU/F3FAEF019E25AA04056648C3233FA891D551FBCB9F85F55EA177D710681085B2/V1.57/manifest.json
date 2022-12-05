@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "SPRINT_V1.57.bin",
-            "dat_file": "SPRINT_V1.57.dat"
-        }
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "manifest": {
-        "application": {
-            "bin_file": "obtn.tracker.lora.fw.orange_button_lora.app.0.6.5+0.gbb8d216.bin",
-            "dat_file": "obtn.tracker.lora.fw.orange_button_lora.app.0.6.5+0.gbb8d216.dat"
-        }
-    }
-}
