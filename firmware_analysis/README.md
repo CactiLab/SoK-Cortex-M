@@ -1,6 +1,9 @@
 
 # Environment Setup
 
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) 10.2.2
+- Replace the `ARMTHUMBinstructions.sinc` file in `<your_ghidra_path>/Ghidra/Processors/ARM/data/languages/` with the one in `code/`
+- A mysql database server to import the firmware database in `database/cortexm_firmware_merged_fw.sql`
 
 # File Description
 ```c
