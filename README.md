@@ -1,4 +1,4 @@
-# SoK: Understanding the Security of Arm Cortex-M Systems
+# SoK: Where’s the “up”?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems
 
 This repository contains four components for researching and understanding Cortex-M microcontrollers:
 
