@@ -6,10 +6,10 @@ This repository contains four components for researching and understanding Corte
 1. The Cortex-M firmware analysis tool and firmware database (in [firmware_analysis](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/firmware_analysis) folder)
 2. Cortex-M hardware feature test suits (in [hw_feature_test_suites](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/hw_feature_test_suites) folder). The example code suite includes the following components:
    - 2.1. Helper and configuration functions. These functions provide a C language interface to configure system and peripheral registers. The current version include:
-   - a. exception handlers that retrieve detailed fault information;
-   - b. functions to enable and disable data and instruction cache;
-   - c. stack dump function that prints out regular stack and exception stack contents;
-   - d. helper functions to configure and control i) MPU; ii) SAU; iii) MPC; iv) DWT; v) MTB.
+     - a. exception handlers that retrieve detailed fault information;
+     - b. functions to enable and disable data and instruction cache;
+     - c. stack dump function that prints out regular stack and exception stack contents;
+     - d. helper functions to configure and control i) MPU; ii) SAU; iii) MPC; iv) DWT; v) MTB.
    - 2.2. Test cases to demonstrate how to use hardware features. The current version include the following test cases:
      - a. change `xPSR``;
      - b. legal and illegal memory accesses;
