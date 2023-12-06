@@ -1,0 +1,606 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=line-stack&renderer=svg&code=G4QwTgBA9gDgLgSygOwNwFgBQXaJRAXggG8sIJwEQAuEs8iAU2RACMAbRgE1rjAFdGAGnrkujAMYh2tUpgYMAzgAsoAd14DhohuKky68hQwD0JiBKjsoYWgHIAxAGEAHACYALG4DMdkUeMILhAVAEEwMBAATwANWgBtAEYhCAAGAF1_QLEQ5XDIqIBNBLcUgFZMnQVFKIBbVisAZQQAL0ZaZKqGMCg4EDxkWgBZfuUAOgAFAEkIc0Sxsq6AXx0VoyWsiAQ4RlrGuCjOWR09aWOA03NLa1sIR1dPHz8u4LCI6LiIJJSMzYVXvLvIolcqVC7kGr1JqtdoQTrgiA9PoDYajSYzOYLVb0Db0TgAc2YPEM_36NC-XTsAAlwFw1OBGBAADIIWrbfpIZCKCAACgAOvxUqlQgB2bxjRIASmeCOptPpYEZU0UikE3P5guFYrGbmlfwYdkaUAAZnAFYzwhJlNtJHB-JF2BBlarGOqBULRR4dXrKUbTeanbUYJxasxkZynSq1bz3Vqyj7ZY1JPbtlEIAAlV2McBWmOa0UANmlOjBCk4pvsZQApDKFA04HAoLVKzX9TYEGH7MBGGBEPpawwbbUAOoILhwZS0NypfVDqmMBD45RwWjeGc6IcAcRAMA6ZVnlkGd0VEjgA_IOwAHnB9odYXJAtcbPYOCAJABrc8MY0oG8wqcuPq5A_sgcAAGIgGy7BRPYiChoodjYusmyKD2HaKAkOgPsYLChvYNJgHSDLMqy7IDG6-balKX7kE-tyOBI7heL4QEQAcMCwnYiggMg76MFENEQOw0RQPwK53MgKCMIJwlRKJcBTDskTkbQ64IpJ4jbrucL7l0YCLsu9huCKrZdLsMDKCECAYSS2Q_hI_A2XYIBcAAVm-zASAJyyscJrCMAY2GBCBf5tABrHAb-EFQTBdxwa6gnkGYEAhbeRx3A07BcIlszmCFw4Lku4l2Jl2URblbGMNeABCNjiGAo7jpOcLlVecC1YRPZOFYz53A4QoDakiEIkl5htR19UACpRBx9iKFYY7DYEuIIpw3bsDZ8RdOQQXZOI8DNWp2SDjsewHOlu3HXR9gOIxjy-NtDArcd5DsAgyCMGl96PQo113PikRcB2oE5QosBvqmqlYiNT2Pc92SXcY-0Th05XkEOX3nC9DB_Y4xouG-LgSEtL3w8db0fZjtnY7jAMucDZ5oww4MSJDaTQ9jazHWTxiI_8jAHVOTMY-d30w79PX0Q4ZQeNV3geGUJPc0zfkBVj2MQDAUCKNsnL2PpRVK9kPOBBTn2i-rNOS_YdNA2GoPMzAEMHFDizixAXPG10pbGGbVN8xY1v_YDDM5Q5YDdh9Kquz5XQaa6mEwwHyXo8SdhMqk8wQAAclAEChrUNhpsACC9vw0itByKAO7hnEZ1nuf57sRcQCXZcVy0VfIA7oDsIIqM_UEAso2kcPlQHo1bGnGduDXkF16kbhjDnedTAA8kMQwAKo99I_ctYPyOHWPj3J-Yqf2BnLGD7Xl-pOKEChBAii1NIjrIPw9Q9tAxoQEMExbwgGMYBu8-6wnhNjI-qkT7YCTo9FOU874eDnnhO4GcvSP2fq_dg79P7-UgCaZ-yZFRAJAUzXu-8IEvSgaPGGJsGBn0HNPVIisma3zQSw5ejd3p8HejrCQTBkASDADNAYbE87ALGKAyhTMaGpBgcdRhF8OEFhQQvAsy8mRvnfD_LYoF9JcgQAI1UMAta9hSjYUhUjhanX9rjW6TEnj0IUBQ9oVDjpyIUQjeB59EEcJFGou-IpNHaN0ZZQi5oAC0rAQjcAzE_SRDsRZ3lkPYu6zE7DOIYK46g7i9rD2PnQ_wp9B4ILHPYKYmcHbkHYXYSpWdJH5yMT0HM1odinntIyHW4hIlWh4h9Da1TW573AUzdGtiLYkHscafGLgXDIKyfzQWcIvGBAnhVZRdSqljIgLUypS8IAADV-DsA-pEDgjJGwpRACcuAejXK2k5AhHZOSD7u3GbsOxQc8azPmZknZNDEgwJKe7MpadKnX3ebs-eFT77L0aTwnskSYA9AkK6eakBxCsH4PifE718RDOSRdaZvyFkvJGQPKFgLVm8x8Uw2FiRAl3EqRgiCig7nsv6F0tQ2xcyhj6cgaytQrHSNGYPIl94SVzL-YsoeyygVFJBcdMFsLZ5sJhcyzhVigiCHEc_ZE3LeXKASuQilbzsYStSd8hwMzpVksPgUjowK4EwxVZq5B6rUFbI0dqyOXAbCRMUBxVmxojEQCpMOFK2Y7SKmeeKiZKSpnWttXM-17tXl5MCNSxVsDFF0s2ZU1hN8NVbOCRAaqM0QjcQua3IkAag2SAQKGgRiSbGfMmcQKVqb_mDwzbIx1Kyc1KuyG671TKtkuC4XnSxahsw6JRQgEuBIukC3AF3B2yVLVJpuDdFNMrTVgMpZAgdCrlbDsCKOypATPWcUqQATmXo0Q5ThEQC3tFrHWyACVM03Qm4lybSU9vTWazNSMT3Orza63x5TNUuHHVMRIqQp3QEgLOkAOjOUfiIU7ZSnJRVHuoeBnNkHlXQfBakO98HEhZyTOHLpBqmCXjRfACMmGdGtt7SB_t8qaUKCUX4upiGqMHMbjOudTdC4iIoBINFKoRUHpkQ6njxGR3mEYZe6jOUEF7Oo8vIY1lP34lfS5GJWGUW9EedXcqCDXmlHzXKkep7VMe2s2p-zGm1X2ZqSWhDInp2ofE_icuhFuT-TNIwZg8mvMOeak5i9visn8Zg4JyF2MdMP1EwF9D-rQlSBYCI_DoGlmOedVgc9xgNMeuLV6hDGD9MqnxRAGJEQOyQD4Xwfgp4nn4fNYR5TZ7c3eKg_S5liQygQEiU6Nwnn3Y6fG5NqY03l6HIrsEAYJgwL8CEQMaQTWcVxuA4e3rx0t2doA_5EUIAgPHv68bVz1MKu-I0_NqbM3SM4R89OCbr3l6be25yXb2L8QHfey4rj0XTskou1drJCCxBEfeytcrChL1PBvRUnwj6TRmmIt0xgvTLLIAGSDl6kPzuMEu9dl6falMlaHS67Go6AAi2zB7ea9SzrO-nED4g5F-ppwioCtJtB0kh_Q-gfhJ9jGnVKB1uAg0NxnZH7Cc6GbUlnBzGmHj4FYCgyAuBBDJHopSb5yJDJlxrGLU4FdrPs8l1X6O7gs4fhMfSS7GCEmw2ugYPWiu6Dl7xhhdu04a_HSzjB3UgzgDgKGUCHd10KbFe7Gh8uVPxYeyj8wzP75ad8er1IEemw4Zj2GePPv7vkFed4CvVuICp8R_d9TyuncF9zwwfPheo-9lj30N6ndy_2dszXlPdKkcM-c5slnRbZslqn8t0udoy94cTwRjxAe0-PYz5cDZAmWeqJr_nso8_2594T4Ps1dnhvw-WfX5ziXg8q9SNe6rnE996duQgSJagbBZWflEdluwUu2QFufWI8t-y0jedK2ecGB-s-qQPqQwH-X-P-BuNQABtQQBme2SF-w-6-DedKTeI2dgLOlGsBHOT-j6xCjIguKogaDGlgtQtQW2RiZ-V-wyR2fuCCI-w2Y-JGE-u-QmjuxBqQk6EA-woSPEBuioMayAFAXAXAsa3IiKAMqYvu3GYBgeO0D-TummQhJBv2NgCoXAkS3AnuTgYEUwahtOzU4Bxg9-bB9uiQb2L06uiGy8keMACAnAYA0SsSqB2OAYQM3YYAOsBwVhyeeBd2yO2-k-iQqWLhs-umj8jQTI6Y4RN2GhG-WBhBsRVWbB-eoh6Ya8EwEAvOXAxqdyiohcvcbe1-mR-B4-6esR0-aWiRBytGnS-cH-5mdMjBjWPKE4UWh2imERN-NutKDhIeiQ--L-KuiQGCfoOOiovhqEBuMQG86RoBNh4xfG2hxBiQz-M-HOY2WO_oDIKxcS2uPQ7AkSxo1gagQx0u4Oox9RURg2tukxcxLg32TOiQpBsxOhBYPxBxv2pctQAY_AMAa20kK-x2-SYx9OfBTRu-X2k2TOaOAJ-x3xaJbgWcxypyPYbAXhqYQQ1klgwRAksJfudR2xWR2-ORAmjcjYMAtaH8jITsHEIRtR0KXqTJsArJuqHJPYmBMRWwf6kq1qd6Up0pVOyJIByJ3BiO3svk7074m0p8809oaKd8DcecBcLcbci-p-5ebE4AhIxUlSohmWEAaG86buXhHuK6OGCe7BlCiWmpYA2pHCupEmBpC-5cxpy-ppYA5pFSbhK8KGNp4mbGXuuGVmrp4C7poknpC8Pp-pUmhpAZlcJpfQIZjAFpThyGYm2W6ZaYb4sm3IraCZUMBYBYsOamHpXp6cmcyGpZrc_pS-8ZuZoZo2fmkZtppRwWXAoW-Zs6kWVZtm9ZJAjZqZrZzcGZHZgZXZZp-ZYZGW_mUZ2WMZeW4AlJ1Z7MbgZQSZWpC8fZ68m8O8KQ3Zq5sGRZWWdpi6DpnuqEzpJpGa9CGpyZTZV8y8T8L8b8uyeC38hC_8gCVZ15FpIhd5m5D57uz5q6cZ3cKQ7548M5d8D8f52CuCX8BCv8oF8mwZPZWyD6Yhz6r6MA762s-Kfg-5iQx5KZ6Fv5WCAFH8OFui-F4FK5BZSGEZxZGGEuGGCFLpKFn5J5jFmC_5OCgFbFIFACBFEFYZfZfFvpUm5Z6KBFrySGtZU5xAaFHCGFzFUlrF-C7FclnFeZBZSl95g5tII54W45ZC-53gOlelzZGCmFLFQFuFRCdG8lXFsKR-2qXAuqVynKOwz8AxVoJqtF9F35BeTFkl2FJlhCqEvl5lRFvm0FA5bZalcmE5IGsVC8gV3C-ifCYankIiLG-AVy6VN5WygVjSwVlyecYVhqcAUVzyMVqFX5RVyGPCBi_CgiwioiEYNVjlClvZWV4mOVMm6l-VR2WlIovBCMrlGcPqWiWGhC_VZVxikJZidyP4kAtVkFVpG5A5C6cFTp3uQZIlw2ulPVd861oSW1pVhiu1piNgB1lix1YZPF1pA5MZL5118Zt17291YlKiISm1v821b1z8e1n1FiR141_lk1vF1lM1FZGlBVxSScq1FBzIz1v84SREyxMSqx8SflFlYZL2i2ByK2b0a2nIG2W2XWKAgO-2NFoN2QolDFmqDSwCAuLSnpbStonReOBO_SAUnVE1whXOusvOiA_ObIguwu7SMajI4u2inV3Nayrl-yy2JyZybAnAeqxoNy7Ady70DybNXINFstnOemCtfORmKtwtVoIuGtFADY2tXNONvNTZEK8KgtiKPh5mFZliWKOKeKX69tqNwhmugtVxuukhhufQxuhJttOtONEABB-tcK2qodyKqK6KkdjAQOMd36hFdVzuy8ruj5y6sZwlZqSGR5KQZWeND17qv2IQHKDGigkVygTcAqQqVNRFGuwdy8ydjoqda2IAGdkQWdftHBy1etXd9Vk9OqzVOW4VA9Rq0VDti8m909euBuc9C9pu3WyF_td1-dDVgtTVeqrVEV-9Mt8dc-Ryi52ZN1LdCwLl69ham9j9oV_dg9B9798B7-ltn-3-YAv-aBp02dK9jed9QDIVLVoDr9cd1NLeZaHRJCNBigdBXKgcjBzBUgb5N9gQedADkDvqdaPhDaIaYaEaUa_QnSb9ODdgfJLJkcgpO4wpy9bp7d7xvM-dZaFaTsKoJtjIfq9awaTaYaP1OhCxAR5x5NcS6xQwQjiZIjx0Adt6UF6NMFms9pjdQNiF2D49Bd9dl1TdlDyDNDENE6U12WF1T5V1ljV5EDnexePenZSF-5SGIobdBjsKp1_Z4m7j5jQlOZEDgVhyX9_eP9jjndzjlprjsFHj9jQZh9CBSBsD8D_-iDOjHQH5aTfNxFj6ZFioFFYAH61F3jXDtdEAtj2TFjzdqTYN-dJFT6L6tTlFhmVjNd8VEAHh0e_jS5gTmlOooTt9tDvTNTb69TVFsdTT1jCTSTnT-8SGh5_96TFG1T_TyzDTaz1dxUb-f8BTKBf-6BSDOzszq9YjAD4Z_10ZAlOTy5zTNjZjjpnz0zv92lKDLzf1Z17zoSHTcT3zvjEzpeUzpT7Mczii-trzYLW5HzkLuT8Tx-Rp39INgLdZ3V6TqLkT6LELsTWL3z-T0DyBcDqBxTgBCLi1Tz2RKLoLpL_F5Lr5lL49SRoQKRaR19XTzm4NlTCGNGVBO9jIVUzGYiMZyj3DeczJAp7JAjXJQrwjj0YTaNbzJZ85ZZs1eVKN0L7hResLce8LGruj2rgmVlJjmNc1xrGzOLWZyT-Lwra9xLdr2V-r0mWNCrlziBNLhT9LdzCLdFwLXrmTKlBr_rTrIzoh4hWGqd0h9oshLkCh6lyh-kYRVrNZGw5ATjYrhZxjPrkmsbjr1i5zj-JFYEhhtIJhXAZhFhTLYwhLud8zUbpb01vruVlZ8bFzJb-DjITB0DPRkQfR_OAxQ981Dz7bhbnbxb3rPb5bfrlbwzg7qjZxZNfhEAWj4bBbHb3TLz8tDW_OioJmoS5m6tPLdVPDKrmsar9zujC7x7xL65HLOWWGO5BW6zd7Sr_JfDqrnJz7ZTkbS70bQWtlTWo5EWshAboz4z3ecLeLALHrm-orgdJburOiUHIWMH9l8HA7j-MLyHFrqHB74HWHy72WeHw5BHY5RHVbh9pHJe5HbraHmri71HkHQ5dljHY9IzmzJ-FHebcI-zEH3btHfHDHcHgnFzRjSbOiKb-Zabchmbcm2bqhYnEbHdRbWHdWBmjWzW-k387WAgS9f7xU97QHj7IHlHWrFTWHtNS2Ryq2XcLN_27NjoQOnD1jibHzKnMh6nihGdKhubXVNrCGLn9N7n62f2ttHNwOG7NbBhYARhjbzblhOnhVNN32dNy2cXzNCXO2PnnNVncxPFHhDpPhGj_h27jIQRwp2nkXTnt6Y2-XrnDNY4HnJXAOZXyXFXOhWc_LqRDnbXeXC2XXRXKAnniXA3fnNdQ7kro7iA47kEbIU72wM7jlutzzxLMXhXjNvXrNpXe2g31bKjpxSx-OdXe7GxOXRLxbh3bnx38Xp3_X53i3g7gVixUSd309tx9x2N6HfGKLL33XTNs3fX3nX3KXgJwJZaYEYJEJUJXK43yLLzEPM3yAc3Z3vn8PWJPxuJhtBJ5yxJBwpJig5JPYe5e3Cgjnb7YrmOYhajJCEtAqxOhPNnzA_D9nj33sqw-oiMtSBEpNSoUYroeYHo2ouogkXafyrE7EnE3EvE_Egkc9CQPsZYqpm06QQvWEccJaf3xElootouu2zo0YGoMvXocvrE0yBMjExMSvM0KvPEfElJLwZIWvKpvEevBvFwIvxvbPSoQYIYpeYiVvUvNvcYCYj45OlOrvs0dwqvnvGvPvXw2vDAFMapWvgfux6kxvxCJJmYqErS0vWoRY8v1qMscsCsgkyvc0Hv6vrEmvWffvefWfSE5A-vmASwGAsCyUtQUQTg4ScAYwsaMIPIcgCCyUPKTUHQIoBYakCCxqBk4kLgQoWAyUSwkoqAQAA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.3/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    var option;
+
+option = {
+  aria: {
+    enabled: true,
+    decal: {
+      show: true,
+      decal: {
+        // color: '#C82423',
+        dashArrayX: [1, 0],
+        dashArrayY: [2, 5],
+        symbolSize: 1,
+        rotation: Math.PI / 1.5
+      }
+    }
+  },
+  itemStyle: {
+    decal: {
+      // color: '#C82423',
+      dashArrayX: [1, 0],
+      dashArrayY: [2, 5],
+      symbolSize: 1,
+      rotation: Math.PI / 1.5
+    }
+  },
+  legend: {
+    data: [
+      'Hardware Limitations (\u00A73.1)',
+      'Hardware Issues (\u00A73.2)',
+      'Software Architectural Issues (\u00A74.2)',
+      'Software Implementation Issues (\u00A75)',
+      'Security Research (\u00A76)'
+    ],
+    left: '5%',
+    bottom: '5%',
+    orient: 'vertical',
+    itemWidth: 20,
+    itemHeight: 30,
+    itemGap: 15,
+    icon: 'rect',
+    textStyle: {
+      color: 'black',
+      fontSize: 28,
+      fontFamily: 'times'
+    }
+  },
+  series: [
+    {
+      name: 'Hardware Limitations (\u00A73.1)',
+      color: '#c82423',
+      type: 'sankey',
+      layout: 'none',
+      layoutIterations: 0,
+      nodeGap: 15,
+      right: '27%',
+      emphasis: {
+        focus: 'adjacency'
+      },
+      label: {
+        fontSize: 28,
+        fontFamily: 'times',
+        // fontStyle: 'bold',
+        // fontWeight: 'bold',
+        // textBorderWidth: 1,
+        textBorderColor: '#000000'
+        // textBorderType: 'solid'
+      },
+      levels: [
+        {
+          depth: 0,
+          itemStyle: {
+            color: '#c82423'
+          },
+          lineStyle: {
+            color: 'gradient',
+            opacity: 0.5
+          }
+        },
+        {
+          depth: 1,
+          itemStyle: {
+            color: '#f8ac8c'
+          },
+          lineStyle: {
+            color: 'gradient',
+            opacity: 0.5
+          }
+        },
+        {
+          depth: 2,
+          itemStyle: {
+            color: '#54B345'
+          },
+          label: {
+            position: 'right'
+          },
+          lineStyle: {
+            color: 'gradient',
+            opacity: 0.5
+          }
+        }
+      ],
+      lineStyle: {
+        color: 'gradient',
+        curveness: 0.5
+      },
+      nodes: [
+        {
+        //   id: 'L01. No memory virtualization',
+          name: 'L01. No memory virtualization',
+          value: 1,
+          depth: 0
+        },
+        {
+          // id: 'L02',
+          name: 'L02. No IOMMU',
+          value: 1,
+          depth: 0
+        },
+        {
+        //   id: 'L03',
+          name: 'L03. A small number of MPU ...',
+          value: 1,
+          depth: 0
+        },
+
+        {
+        //   id: 'L04',
+          name: 'L04. A small number of secure ...',
+          value: 1,
+          depth: 0
+        },
+        {
+        //   id: 'L05',
+          name: 'L05. No intrinsic encryption to ...',
+          value: 1,
+          depth: 0
+        },
+        {
+        //   id: 'L06',
+          name: 'L06. Lack of intrinsic support for ...',
+          itemStyle: {color: '#c82423'},
+          value:1,
+          depth: 0
+        },
+        {
+        //   id: 'L07',
+          name: 'L07. Lack of hardware-based RA ...',
+          itemStyle: {color: '#c82423'},
+          value:1,
+          depth: 0
+        },
+
+        {
+          //   id: 'I01',
+            name: 'I01. ... microarchitecture side-channels',
+            value: 1,
+            itemStyle: {color: '#ff8884'},
+            depth: 1
+        },
+        {
+          //   id: 'I01',
+            name: 'I02. Vulnerable to fault injections',
+            value: 1,
+            itemStyle: {color: '#ff8884'},
+            depth: 1
+        },
+
+        {
+          //   id: 'I03',
+            name: 'I03. ... inter-processor debugging',
+            itemStyle: {color: '#ff8884'},
+            value: 1,
+            depth: 1
+        },
+        {
+        //   id: 'I01',
+          name: 'I04. Fast state switch mechanism ...',
+          value: 1,
+          itemStyle: {color: '#ff8884'},
+          depth: 1
+        },
+        {
+        //   id: 'I02',
+          name: 'I05. ... due to state switches',
+          value: 1,
+          itemStyle: {color: '#ff8884'},
+          depth: 1
+        },
+
+        {
+        //   id: 'I04',
+          name: 'I06. ... vendor-specific HW features',
+          itemStyle: {color: '#ff8884'},
+          value: 1,
+          depth: 1
+        },
+
+        {
+        //   id: 'I05',
+          name: 'I07. Bypassable vendor-specific ...',
+          itemStyle: {color: '#ff8884'},
+          value: 1,
+          depth: 1
+        },
+
+        {
+        //   id: 'I06',
+          name: 'I08. No or weak privilege separation',
+          // itemStyle: {color: '#ff8884'},
+          value: 1,
+          depth: 1
+        },
+        {
+        //   id: 'I07',
+          name: 'I09. SVC repurposing',
+          // itemStyle: {color: '#ff8884'},
+          value: 1,
+          depth: 1
+        },
+
+        {
+        //   id: 'I08',
+          name: 'I10. No or weak stack separation',
+          value: 1,
+          depth: 1
+        },
+        {
+        //   id: 'I09',
+          name: 'I11. Secure state exception stack ...',
+          value: 1,
+          depth: 1
+        },
+        {
+        //   id: 'I10',
+          name: 'I12. No or weak memory access ...',
+          value: 1,
+          depth: 1
+        },
+        // {
+        // //   id: 'I11',
+        //   name: 'I11. Missing readback protection',
+        //   value: 2,
+        //   depth: 1
+        // },
+        // {
+        //   //   id: 'I12',
+        //     name: 'I12. No or weak guards between ...',
+        //     depth: 1
+        //   },
+        {
+        //   id: 'I13',
+          name: 'I13. No or weak stack canary',
+          value:1,
+          depth: 1
+        },
+
+
+
+        {
+        //   id: 'I14',
+          name: 'I14. Missing barrier instructions',
+          value: 1,
+          depth: 1
+        },
+
+        {
+        //   id: 'I15 - I22',
+          name: 'I15 - I22. Validation/Functional bugs',
+          value: 1,
+          itemStyle: {color: '#ffbe7a'},
+          depth: 1
+        },
+        // {
+        //   //   id: 'I15 - I22',
+        //     name: 'I20 - I22. Functional bugs',
+        //     value: 1,
+        //     itemStyle: {color: '#ffbe7a'},
+        //     depth: 1
+        // },
+
+        {
+        //   id: 'I23',
+          name: 'I23. Software side-channels',
+          itemStyle: {color: '#ffbe7a'},
+          value: 1,
+          depth: 1
+        },
+
+        {
+          //   id: 'D01',
+            name: 'D01. Mitigating microarchitecture attacks',
+            value: 1,
+            depth: 2
+        },
+
+        {
+          //   id: 'D01',
+            name: 'D02. ... control and data interactions',
+            value: 1,
+            depth: 2
+        },
+
+        {
+        //   id: 'D01',
+          name: 'D03. Privilege separation',
+          value: 1,
+          depth: 2
+        },
+        {
+        //   id: 'D02',
+          name: 'D04. Compartmentalization',
+          value: 1,
+          depth: 2
+        },
+        // {
+        // //   id: 'D03',
+        //   name: 'D04. Compartmentalization',
+        //   value: 3,
+        //   depth: 2
+        // },
+        // {
+        // //   id: 'D04',
+        //   name: 'D04. Compartmentalization',
+        //   value: 2,
+        //   depth: 2
+        // },
+
+        {
+        //   id: 'D05',
+          name: 'D05. Virtualization',
+          value: 1,
+          depth: 2
+        },
+        // {
+        // //   id: 'D06',
+        //   name: 'D05. Virtualization',
+        //   value: 2,
+        //   depth: 2
+        // },
+        {
+        //   id: 'D07',
+          name: 'D06. Multi-world systems',
+          value: 1,
+          depth: 2
+        },
+        // {
+        // //   id: 'D08',
+        //   name: 'D06. Multi-world systems',
+        //   value: 2,
+        //   depth: 2
+        // },
+        // {
+        // //   id: 'D09',
+        //   name: 'D07. Secure cross-state communication',
+        //   value: 1,
+        //   depth: 2
+        // },
+
+        {
+        //   id: 'D10',
+          name: 'D08. Stack and return address integrity',
+          value: 1,
+          depth: 2
+        },
+        {
+        //   id: 'D11',
+          name: 'D09. Forward-edge CFI',
+          value: 1,
+          depth: 2
+        },
+        {
+        //   id: 'D12',
+          name: 'D10. Compiler-based software diversity',
+          value: 1,
+          depth: 2
+        },
+        {
+        //   id: 'D13',
+          name: 'D11. ASLR',
+          value: 1,
+          depth: 2
+        },
+        // {
+        // //   id: 'D14',
+        //   name: 'D08. ROP gadhet removal',
+        //   depth: 2
+        // },
+        {
+        //   id: 'D15',
+          name: 'D12. Secure multiprogramming with ...',
+          value: 1,
+          depth: 2
+        },
+
+        {
+        //   id: 'D16',
+          name: 'D14. Software-based XOM',
+          value: 1,
+          depth: 2
+        },
+
+        {
+        //   id: 'D17',
+          name: 'D15. Software-based control-flow ...',
+          value: 1,
+          depth: 2
+        },
+
+        {
+        //   id: 'D18 - D19',
+          name: 'D16 - D17. Firmware update',
+          value: 1,
+          depth: 2
+        },
+
+        {
+        //   id: 'D20 - D23',
+          name: 'D18 - D21. Vulnerability discovery',
+          value: 1,
+          depth: 2
+        },
+        // {
+        // //   id: 'No top venue papers',
+        //   name: 'No top venue papers',
+        //   itemStyle: {color: '#999999'},
+        //   value: 1,
+        //   depth: 2
+        // }
+      ],
+      links: [
+        {source: 'L01. No memory virtualization', target: 'I08. No or weak privilege separation', value: 1},
+        {source: 'L01. No memory virtualization', target: 'I10. No or weak stack separation', value: 1},
+        {source: 'L01. No memory virtualization', target: 'I12. No or weak memory access ...', value: 0.66},
+        // {source: 'L01. No memory virtualization', target: 'I12. No or weak guards between ...', value: 2},
+        // {source: 'L01. No memory virtualization', target: 'I13. No or weak stack canary', value: 0.25},
+        {source: 'L02. No IOMMU', target: 'I08. No or weak privilege separation', value: 1},
+      
+        {source: 'L03. A small number of MPU ...', target: 'I08. No or weak privilege separation', value: 1},
+        {source: 'L03. A small number of MPU ...', target: 'I09. SVC repurposing', value: 1},
+        {source: 'L03. A small number of MPU ...', target: 'I10. No or weak stack separation', value: 1},
+        {source: 'L03. A small number of MPU ...', target: 'I12. No or weak memory access ...', value: 0.66},
+        // {source: 'L03. A small number of MPU ...', target: 'I12. No or weak guards between ...', value: 3},
+        // {source: 'L04. A small number of secure ...', target: 'I05. ... due to state switches', value: 1},
+        {source: 'L04. A small number of secure ...', target: 'I12. No or weak memory access ...', value: 1},
+        {source: 'L05. No intrinsic encryption to ...', target: 'I05. ... due to state switches', value: 1},
+        {source: 'L05. No intrinsic encryption to ...', target: 'I12. No or weak memory access ...', value: 0.67},
+
+        {source: 'L06. Lack of intrinsic support for ...', target: 'I08. No or weak privilege separation', value: 1},
+        // {source: 'L06. Lack of intrinsic support for ...', target: 'I10. No or weak stack separation', value: 1},
+        // {source: 'L06. Lack of intrinsic support for ...', target: 'I12. No or weak memory access ...', value: 1},
+
+        {source: 'L07. Lack of hardware-based RA ...', target: 'I15 - I22. Validation/Functional bugs', value: 1},
+        
+        {source: 'I01. ... microarchitecture side-channels', target: 'D01. Mitigating microarchitecture attacks', value: 1},
+        {source: 'I02. Vulnerable to fault injections', target: 'D01. Mitigating microarchitecture attacks', value: 1},
+        {source: 'I03. ... inter-processor debugging', target: 'D02. ... control and data interactions', value: 1}, 
+        // {source: 'I03. ... inter-processor debugging', target: 'D03. Privilege separation', value: 0.5}, 
+
+        {source: 'I04. Fast state switch mechanism ...', target: 'D02. ... control and data interactions', value: 1},
+
+        {source: 'I05. ... due to state switches', target: 'D02. ... control and data interactions', value: 1},
+        // {source: 'I05. ... due to state switches', target: 'D05. Virtualization', value: 0.5},
+        // {source: 'I05. ... due to state switches', target: 'D06. Multi-world systems', value: 1},
+        // {source: 'I05. ... due to state switches', target: 'D07. Secure cross-state communication', value: 1},
+      
+        // {source: 'I06. ... vendor-specific HW features', target: 'No top venue papers', value: 1}, 
+
+        {source: 'I07. Bypassable vendor-specific ...', target: 'D14. Software-based XOM', value: 1}, 
+        
+        {source: 'I08. No or weak privilege separation', target: 'D03. Privilege separation', value: 1},
+        // {source: 'I08. No or weak privilege separation', target: 'D04. Compartmentalization', value: 0.75},
+        {source: 'I08. No or weak privilege separation', target: 'D05. Virtualization', value: 1},
+        {source: 'I08. No or weak privilege separation', target: 'D06. Multi-world systems', value: 1},
+      
+        {source: 'I09. SVC repurposing', target: 'D03. Privilege separation', value: 1},
+        // {source: 'I09. SVC repurposing', target: 'D04. Compartmentalization', value: 0.25},
+        // {source: 'I09. SVC repurposing', target: 'D05. Virtualization', value: 0.25},
+        // {source: 'I09. SVC repurposing', target: 'D06. Multi-world systems', value: 0.25},
+
+        {source: 'I10. No or weak stack separation', target: 'D03. Privilege separation', value: 0.66},
+        // {source: 'I10. No or weak stack separation', target: 'D04. Compartmentalization', value: 0.5},
+        {source: 'I10. No or weak stack separation', target: 'D05. Virtualization', value: 0.66},
+        {source: 'I10. No or weak stack separation', target: 'D06. Multi-world systems', value: 0.67},
+
+        // {source: 'I10. No or weak stack separation', target: 'D11. ASLR', value: 1},
+        // {source: 'I11. Secure state exception stack ...', target: 'No top venue papers', value: 1},
+        
+        {source: 'I12. No or weak memory access ...', target: 'D04. Compartmentalization', value: 1},
+        {source: 'I12. No or weak memory access ...', target: 'D05. Virtualization', value: 1},
+        {source: 'I12. No or weak memory access ...', target: 'D06. Multi-world systems', value: 1},
+        // {source: 'I12. No or weak memory access ...', target: 'D08. Stack and return address integrity', value: 0.6},  
+        // {source: 'I12. No or weak memory access ...', target: 'D09. Forward-edge CFI', value: 0.6}, 
+        // {source: 'I12. No or weak memory access ...', target: 'D12. Secure multiprogramming with ...', value: 0.6},   
+        // {source: 'I12. No or weak memory access ...', target: 'D14. Software-based XOM', value: 1},  
+        // {source: 'I11. Missing readback protection', target: 'No top venue papers', value: 1},  
+        // {source: 'I13. No or weak stack canary', target: 'No top venue papers', value: 1},
+        // {source: 'I12. No or weak guards between ...', target: 'D04. Compartmentalization', value: 1},
+        // {source: 'I12. No or weak guards between ...', target: 'D04. Compartmentalization', value: 1},
+        // {source: 'I12. No or weak guards between ...', target: 'D04. Compartmentalization', value: 1},
+        // {source: 'I12. No or weak guards between ...', target: 'D05. Virtualization', value: 1},
+        // {source: 'I12. No or weak guards between ...', target: 'D08. Stack and return address integrity', value: 1},
+
+
+        // {source: 'I14. Missing barrier instructions', target: 'No top venue papers', value: 1},
+        
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D08. Stack and return address integrity', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D09. Forward-edge CFI', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D10. Compiler-based software diversity', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D11. ASLR', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D12. Secure multiprogramming with ...', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D14. Software-based XOM', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D15. Software-based control-flow ...', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D16 - D17. Firmware update', value: 1},
+        {source: 'I15 - I22. Validation/Functional bugs', target: 'D18 - D21. Vulnerability discovery', value: 1},
+        
+        
+        // {source: 'I23. Software side-channels', target: 'No top venue papers', value: 1},
+      ]
+    },
+    {
+      name: 'Hardware Issues (\u00A73.2)',
+      color: '#ff8884',
+      type: 'sankey',
+      data: [],
+      links: []
+    },
+    {
+      name: 'Software Architectural Issues (\u00A74.2)',
+      color: '#f8ac8c',
+      type: 'sankey',
+      data: [],
+      links: []
+    },
+    {
+      name: 'Software Implementation Issues (\u00A75)',
+      color: '#ffbe7a',
+      type: 'sankey',
+      data: [],
+      links: []
+    },
+    {
+      name: 'Security Research (\u00A76)',
+      color: '#54B345',
+      type: 'sankey',
+      data: [],
+      links: []
+    }
+  ]
+};
+
+// myChart.resize({
+//   // width: 1760,
+//   height: 800
+// });
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
