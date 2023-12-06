@@ -1,7 +1,6 @@
-
 # SoK: Where’s the “up”?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems
 
-This repository contains four components for researching and understanding Cortex-M microcontrollers:
+This repository contains supplementary materials for the titled paper.
 
 1. The Cortex-M firmware analysis tool and firmware database (in [firmware_analysis](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/firmware_analysis) folder)
 2. Cortex-M hardware feature test suits (in [hw_feature_test_suites](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/hw_feature_test_suites) folder). The example code suite includes the following components:
