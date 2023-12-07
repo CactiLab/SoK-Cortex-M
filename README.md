@@ -8,9 +8,9 @@ This repository contains supplementary materials for the titled paper.
      - a. exception handlers that retrieve detailed fault information;
      - b. functions to enable and disable data and instruction cache;
      - c. stack dump function that prints out regular stack and exception stack contents;
-     - d. helper functions to configure and control i) MPU; ii) SAU; iii) MPC; iv) DWT; v) MTB.
+     - d. helper functions to configure and control (i) MPU; (ii) SAU; (iii) MPC; (iv) DWT; (v) MTB.
    - 2.2. Test cases to demonstrate how to use hardware features. The current version include the following test cases:
-     - a. change `xPSR``;
+     - a. change `xPSR`;
      - b. legal and illegal memory accesses;
      - c. `TT` instruction examples;
      - d. stacking and unstacking with and without TrustZone;
