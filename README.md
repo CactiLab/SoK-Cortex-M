@@ -18,6 +18,6 @@ This repository contains supplementary materials for the titled paper.
      - f. performance measurement and data access monitor with DWT;
      - g. state transition tests and performance measurement.
 3. A document explaining the background of Cortex-M architecture (in [3_background.pdf](https://github.com/CactiLab/code-SoK-Cortex-M/blob/main/3_background.pdf)).
-4. An interactive figure showcasing the relationships between Cortex-M limitations, issues, and mitigations (download [4_relations_interactive_fig.html](https://github.com/CactiLab/code-SoK-Cortex-M/blob/main/4_relations_interactive_fig.html))
+4. An interactive figure showcasing the relationships between Cortex-M limitations, issues, and mitigation (download [4_relations_interactive_fig.html](https://github.com/CactiLab/code-SoK-Cortex-M/blob/main/4_relations_interactive_fig.html))
 5. A figure demonstrates the paper and CVE growing trends from year 2014 to 2023 (in [5_paper_and_cve_trend.pdf](https://github.com/CactiLab/code-SoK-Cortex-M/blob/main/5_paper_and_cve_trend.pdf)).
 6. [The Google Sheet link](https://docs.google.com/spreadsheets/d/1xWaPkYhWN8H_5XIA9zWZErhj2j2HMoxlJKs5AMwcE5c/edit?usp=sharing) to a collection of Cortex-M-related CVEs.
