@@ -1,7 +1,5 @@
 # Introduction
 
-Project: **SoK: Understanding the Security of Arm Cortex-M Systems**
-
 This project tests all kinds of faults, e.g. memory access violations, on a Cortex-M system considering different setups of privilege levels, TrustZone, MPU, SAU, IDAU, MPC, PPC.
 
 - Board: [Arm MPS2+](https://developer.arm.com/tools-and-software/development-boards/fpga-prototyping-boards/mps2)
