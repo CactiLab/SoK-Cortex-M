@@ -1,6 +1,6 @@
 # SoK: Where’s the “up”?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems
 
-The results of this project were published in the paper entitled "<a href="[https://cactilab.github.io/assets/pdf/byotee2024.pdf](https://cactilab.github.io/assets/pdf/tan2024sok.pdf)">SoK: Where’s the “up”?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems</a>" in the USENIX WOOT Conference on Offensive Technologies 2024. If you want to cite our paper in your work, please use the following BibTeX entry.
+The results of this project were published in the paper entitled [SoK: Where’s the “up”?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems](https://cactilab.github.io/assets/pdf/tan2024sok.pdf) in the USENIX WOOT Conference on Offensive Technologies 2024. If you want to cite our paper in your work, please use the following BibTeX entry.
 
 ```
 @inproceedings{tan24sok,
