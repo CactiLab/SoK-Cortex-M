@@ -10,7 +10,6 @@ The results of this project were published in the paper entitled "<a href="[http
   year = {2024}
 }
 ```
-```
 
 1. The Cortex-M firmware analysis tool and firmware database (in [firmware_analysis](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/firmware_analysis) folder)
 2. Cortex-M hardware feature test suits (in [hw_feature_test_suites](https://github.com/CactiLab/code-SoK-Cortex-M/tree/main/hw_feature_test_suites) folder). The example code suite includes the following components:
