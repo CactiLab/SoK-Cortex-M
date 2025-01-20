@@ -16,6 +16,8 @@ development board.
 
 **Nucleo F446RE**
 
+**Nucleo_f\>Core\>Src\>MPU_Config.c**
+
 **Configuration Steps and Initial Assignments**
 
 1.  **Disable the MPU:**
