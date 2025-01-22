@@ -95,13 +95,27 @@ Parity: None
 Stop Bits: 1
 /////////////////////////////* Data Watch Point and Trace 1/22/2024*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-// Data Watch Point and Trace is a hardware feature we  are measuring the number of clock cycles it takes to execute a specific function (in this case, delay_function()).
+// Data Watch Point and Trace is a hardware feature we  
+are measuring the number of clock cycles it takes to execute 
+a specific function (in this case, delay_function()).
 
-//A clock cycle is the basic unit of time for a processor. Each instruction and operation on the microcontroller takes a certain number of clock cycles to complete.
-By counting the number of clock cycles between the start and end of a function, we can measure how long that function takes to execute in terms of CPU time. This is useful for profiling, debugging, and optimizing code
+//A clock cycle is the basic unit of time for a processor. 
+Each instruction and operation on the microcontroller 
+takes a certain number of 
+clock cycles to complete.
+By counting the number of clock cycles between the start and end of a function, 
+we can measure how long that function takes to execute in terms of CPU time. 
+This is useful for profiling, debugging, and optimizing code
 
-// UART (Universal Asynchronous Receiver-Transmitter) is being used for serial communication to send the measured clock cycle count (cycles_taken) to a terminal or another device (e.g., PC).
-void DWT_EnableCycleCounter(void) {
+// UART (Universal Asynchronous Receiver-Transmitter) is 
+being used for serial communication 
+to send the measured clock cycle count (cycles_taken) 
+to a terminal or another device (e.g., PC).
+
+// Function used for enabling the registers for clock cycle calculation 
+
+void DWT_EnableCycleCounter(void) 
+{
     CoreDebug->DEMCR |= CoreDebug_DEMCR_TRCENA_Msk; // Enable DWT
     DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;           // Enable Cycle Counter
     DWT->CYCCNT = 0;                               // Reset Cycle Counter
