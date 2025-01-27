@@ -93,7 +93,8 @@ Data Size: 8
 Parity: None
 
 Stop Bits: 1
-/////////////////////////////* Data Watch Point and Trace 1/22/2024*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+*** Data Watch Point and Trace 1/22/2024 ***
 
 // Data Watch Point and Trace is a hardware feature we  
 are measuring the number of clock cycles it takes to execute 
