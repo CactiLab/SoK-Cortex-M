@@ -319,3 +319,37 @@ This turns off the LED because many LEDs are active high (they light up when the
 What is Happening in the Code
 The microcontroller sends a low signal to the pin connected to the LD2 LED.
 This causes the LED to turn off.
+
+////////////////////////////////////////////MAX 78000 ectf board initial flashing configuration setup/////////////////////////////////////////////////////////
+
+1. Flashing the Initial Bootloader
+Objective: Install the insecure bootloader on the board to enable further firmware updates.
+What We Do: Connect the MAX78000 board via USB. The board shows up as a removable media source (like a flash drive). Download the insecure.bin file and drag it into the removable drive. The blue LED blinking indicates successful flashing.
+
+2. Cloning the Reference Design
+Objective: Get the necessary project files and reference firmware from GitHub.
+What We Do: Clone the reference design repository using git clone. Navigate to the cloned directory, where key files for the decoder, design, frames, and tools are located.
+
+3. Setting Up a Python Virtual Environment
+Objective: Install and isolate the required Python libraries without interfering with system-wide configurations.
+What We Do: Create a virtual environment using Python’s venv. Activate the virtual environment using Activate.ps1. Install necessary libraries related to the tools and design directories.
+
+4. Locating the Serial Port
+Objective: Identify the correct serial port to communicate with the board for flashing.
+What We Do: Open the Windows Device Manager and find the port labeled COMxx under "Ports (COM & LPT)". Take note of the COM port, as it will be required when flashing the board.
+
+5. Generating Secrets for Secure Deployment
+Objective: Create and manage shared secrets for the encoder and decoder to ensure secure communication.
+What We Do: Create a secrets directory. Generate shared secrets using gen_secrets, which will be used by both the encoder and decoder.
+
+6. Building and Running the Decoder
+Objective: Build the decoder using Docker, which acts as the firmware to be flashed.
+What We Do: Navigate to the decoder directory and build the decoder image using Docker. Run the decoder using Docker to produce the necessary firmware binary.
+
+7. Generating a Subscription Update
+Objective: Set up channel subscriptions to handle communication with the decoder.
+What We Do: Use the gen_subscription command to generate the subscription.bin file. The file is configured for specific timestamps and channels.
+
+8. Flashing the Decoder Firmware
+Objective: Flash the built firmware (max78000.bin) onto the board.
+What We Do: Place the board into update mode by holding the SW1 button while connecting it to the PC. The blinking blue LED indicates the board is ready to receive new firmware. Run the flash command to upload the firmware to the board using the correct COM port.
