@@ -38,6 +38,28 @@ This folder contains tests and documentation for the Nucleo F446RE development b
 
 5. **Applying Memory Barriers**  
    Data and instruction synchronization barriers ensure the MPU configuration takes effect correctly across the system.
+   MPU Configuration:
+
+Configures Region 0 to cover 64 KB of SRAM1 at address 0x20000000 with read/write access.
+Enables memory faults to detect unauthorized accesses.
+Privileged and Unprivileged Access Testing:
+
+In privileged mode, memory accesses succeed, and GPIO pins (LEDs) toggle as feedback.
+The CPU is switched to unprivileged mode, where memory writes may cause faults if access is restricted.
+UART Communication:
+
+Outputs messages via UART to monitor program status and transitions between modes.
+Access Permissions Table
+AP[2:0]	Privileged Access	Unprivileged Access	Notes
+000	No access	No access	Any access generates a permission fault
+001	Read/Write	No access	Privileged access only
+010	Read/Write	Read-only	Unprivileged write generates a permission fault
+011	Read/Write	Read/Write	Full access
+100	UNPREDICTABLE	UNPREDICTABLE	Reserved
+101	Read-only	No access	Privileged read-only
+110	Read-only	Read-only	Privileged and unprivileged read-only
+111	Read-only	Read-only	Privileged and unprivileged read-only with additional checks
+
 
 ---
 
@@ -76,7 +98,7 @@ ChaCha20 is a secure and efficient algorithm used to encrypt and decrypt data. I
 
 ---
 
-## Memory Region Configurations (`F1` to `F6`)
+## Memory Region Configurations (`F1` to F3)
 
 ### **Purpose:**  
 Each directory (`F1` to `F6`) demonstrates the MPU's ability to control memory access by varying base addresses, sizes, and permission settings.
@@ -137,3 +159,9 @@ The built firmware is flashed onto the board, with the correct serial port and m
 
 ---
 
+#Data Watch Point and Trace (DWT)
+Purpose:
+This hardware feature is used to measure performance by tracking memory accesses or the time taken by functions. It also enables watchpoints to debug access to specific variables.
+
+DWT Watchpoint Program:
+The DWT Watchpoint Program demonstrates the use of watchpoints to monitor memory read and write operations on the variable test_variable
