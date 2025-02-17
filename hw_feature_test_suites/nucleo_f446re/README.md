@@ -1,10 +1,7 @@
-Link to the GoogleDrive Document 
-
-https://uccsoffice365-my.sharepoint.com/:w:/g/personal/apadiyal_uccs_edu/EbtBpDt2p7dPn8wQoQ-r1awBHwUQqn1_jXAvR8i2_dfkiA?e=0oHe4r
-
-
-
 # Nucleo F446RE Development Board
+
+**Link to the Google Drive Document:**  
+[Google Drive Link](https://uccsoffice365-my.sharepoint.com/:w:/g/personal/apadiyal_uccs_edu/EbtBpDt2p7dPn8wQoQ-r1awBHwUQqn1_jXAvR8i2_dfkiA?e=0oHe4r)
 
 This folder contains tests and documentation for the Nucleo F446RE development board.
 
@@ -38,28 +35,30 @@ This folder contains tests and documentation for the Nucleo F446RE development b
 
 5. **Applying Memory Barriers**  
    Data and instruction synchronization barriers ensure the MPU configuration takes effect correctly across the system.
-   MPU Configuration:
 
-Configures Region 0 to cover 64 KB of SRAM1 at address 0x20000000 with read/write access.
-Enables memory faults to detect unauthorized accesses.
-Privileged and Unprivileged Access Testing:
+### **Peripherals and Functionalities Table**
+The table below summarizes the key peripherals used in this project and their respective functionalities.
 
-In privileged mode, memory accesses succeed, and GPIO pins (LEDs) toggle as feedback.
-The CPU is switched to unprivileged mode, where memory writes may cause faults if access is restricted.
-UART Communication:
-
-Outputs messages via UART to monitor program status and transitions between modes.
-Access Permissions Table
-AP[2:0]	Privileged Access	Unprivileged Access	Notes
-000	No access	No access	Any access generates a permission fault
-001	Read/Write	No access	Privileged access only
-010	Read/Write	Read-only	Unprivileged write generates a permission fault
-011	Read/Write	Read/Write	Full access
-100	UNPREDICTABLE	UNPREDICTABLE	Reserved
-101	Read-only	No access	Privileged read-only
-110	Read-only	Read-only	Privileged and unprivileged read-only
-111	Read-only	Read-only	Privileged and unprivileged read-only with additional checks
-
+| **Peripheral** | **Description** | **Function Name** |
+|--------------|---------------------------------------------|-----------------------------|
+| **GPIO (General-Purpose Input/Output)** | Controls the LED (LD2) and configures the button (B1) as an input with an interrupt. | `MX_GPIO_Init()` |
+| **USART2 (UART)** | Handles serial communication, transmits "Cycles taken" messages. | `MX_USART2_UART_Init()` |
+| **EXTI (External Interrupt)** | Detects button press and triggers an interrupt to toggle the LED. | `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)` |
+| **System Clock** | Configures the system clock using the internal HSI oscillator with PLL. | `SystemClock_Config()` |
+| **Error Handling** | Handles system errors by disabling interrupts and entering an infinite loop. | `Error_Handler()` |
+| **DWT (Data Watchpoint and Trace Unit)** | Enables and configures the cycle counter for measuring execution time. | `DWT_EnableCycleCounter()` |
+| **Delay Function** | Implements a simple dummy delay loop for profiling. | `delay_function()` |
+| **Cycle Counter Measurement** | Measures CPU cycles taken by a function and sends the result over UART. | `main()` |
+| **UART (USART2)** | Transmits `"Hello, UART!"` message five times over UART2 with a 1-second delay. | `HAL_UART_Transmit()` |
+| **Delay Function** | Introduces a 1-second delay between UART transmissions to prevent flooding. | `HAL_Delay(1000)` |
+| **Basic Peripheral Initialization** | Initializes system clock, GPIO, and UART without additional runtime behavior. | `main()` (idle loop) |
+| **ChaCha20 Encryption** | Encrypts a plaintext message using ChaCha20. | `crypto_chacha20_x()` |
+| **UART Transmission of Encrypted Data** | Converts encrypted data to hex format and sends it via UART. | `HAL_UART_Transmit()` |
+| **UART Helper Function** | Simplifies sending strings over UART. | `UART_SendString()` |
+| **MPU Configuration** | Configures the **Memory Protection Unit (MPU)** to define access permissions for memory regions. | `MPU_Config()` |
+| **Privilege Mode Switching** | Switches execution from **privileged mode** to **unprivileged mode** and back to test MPU settings. | `test_p_up_rw()` |
+| **MPU Testing Function** | Calls MPU test functions and toggles LED based on memory access success/failure. | `test_mpu()` |
+| **Supervisor Call (SVC) Execution** | Executes an **SVC (Supervisor Call) instruction**, typically used to request privileged services from the OS or firmware. | `test_svc()` |
 
 ---
 
@@ -108,12 +107,6 @@ Each directory (`F1` to `F6`) demonstrates the MPU's ability to control memory a
 - **Region Sizes:** Defines the size of each memory region, typically 32 KB for SRAM and 1 MB for Flash memory.  
 - **Access Permissions:** Ranges from no access to full access, depending on the security level needed.
 
-### **Key Permissions (AP Settings):**
-- No access for privileged and unprivileged modes.  
-- Read/write access for privileged modes only.  
-- Full access for both privileged and unprivileged modes.  
-- Read-only access to protect critical data in Flash memory.
-
 ### **Fault Handling:**  
 Attempts to access restricted regions trigger memory faults, which are handled using exception handlers to prevent system crashes.
 
@@ -139,29 +132,6 @@ The board is connected via USB, and the insecure bootloader is flashed to enable
 ### **2. Cloning the Reference Design**  
 The necessary project files and reference firmware are cloned from the GitHub repository, including components for decoders, designs, and tools.
 
-### **3. Setting Up a Python Virtual Environment**  
-A virtual environment is created to manage Python dependencies required for building and deploying the firmware.
-
-### **4. Locating the Serial Port**  
-The serial port used to communicate with the board is identified using the Windows Device Manager, ensuring the correct COM port is selected.
-
-### **5. Generating Secrets for Secure Deployment**  
-A shared secret is generated for both the encoder and decoder to ensure secure communication.
-
-### **6. Building and Running the Decoder**  
-The decoder firmware is built using Docker, creating the necessary binary files for deployment.
-
-### **7. Generating a Subscription Update**  
-A subscription file is generated to handle secure communication between devices and the decoder.
-
-### **8. Flashing the Decoder Firmware**  
-The built firmware is flashed onto the board, with the correct serial port and mode settings ensuring proper installation.
-
 ---
 
-#Data Watch Point and Trace (DWT)
-Purpose:
-This hardware feature is used to measure performance by tracking memory accesses or the time taken by functions. It also enables watchpoints to debug access to specific variables.
 
-DWT Watchpoint Program:
-The DWT Watchpoint Program demonstrates the use of watchpoints to monitor memory read and write operations on the variable test_variable
