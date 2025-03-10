@@ -1,0 +1,5 @@
+load STM32F446RETx
+project name STM32CubeMX
+project toolchain "MDK-ARM V5"
+project path "C:\Users\AcerPC\STM32CubeIDE\workspace\Keil_DWT_Project\STM32CubeMX\Target_1"
+SetCopyLibrary "copy only"
