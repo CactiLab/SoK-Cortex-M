@@ -124,14 +124,20 @@ The NVIC (Nested Vector Interrupt Controller) manages interrupts with different 
 
 ---
 
-## Initial Setup for MAX78000 Board
+## SVC Handler Implementation
 
-### **1. Flashing the Initial Bootloader**  
-The board is connected via USB, and the insecure bootloader is flashed to enable further firmware updates. A blinking blue LED confirms successful flashing.
+### **Overview**
+The **Supervisor Call (SVC) handler** is implemented to allow controlled execution of privileged operations. The handler reads the **SVC number** from the triggering instruction and executes the corresponding function. This enables secure system calls for handling **hardware interactions** and **power management** in embedded applications.
 
-### **2. Cloning the Reference Design**  
-The necessary project files and reference firmware are cloned from the GitHub repository, including components for decoders, designs, and tools.
+### **SVC Test Cases Implemented**
 
----
+The following table outlines two test cases implemented using the **SVC handler**:
+
+| **SVC Number** | **Operation**                  | **Description** |
+|--------------|--------------------------------|------------------|
+| **SVC #0**  | Toggle LED (PA5)              | Toggles the built-in LED on the STM32 board. |
+| **SVC #6**  | Enter Sleep Mode              | Puts the microcontroller into low-power sleep mode until woken by an interrupt. |
+
+These test cases demonstrate how **SVC calls** can be used to manage system behavior in a structured and secure way.
 
 
