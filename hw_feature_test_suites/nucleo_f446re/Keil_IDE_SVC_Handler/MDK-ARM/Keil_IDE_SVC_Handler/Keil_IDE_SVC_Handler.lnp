@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp.sp
+"keil_ide_svc_handler\startup_stm32f446xx.o"
+"keil_ide_svc_handler\main.o"
+"keil_ide_svc_handler\stm32f4xx_it.o"
+"keil_ide_svc_handler\stm32f4xx_hal_msp.o"
+"keil_ide_svc_handler\stm32f4xx_hal_uart.o"
+"keil_ide_svc_handler\stm32f4xx_hal_rcc.o"
+"keil_ide_svc_handler\stm32f4xx_hal_rcc_ex.o"
+"keil_ide_svc_handler\stm32f4xx_hal_flash.o"
+"keil_ide_svc_handler\stm32f4xx_hal_flash_ex.o"
+"keil_ide_svc_handler\stm32f4xx_hal_flash_ramfunc.o"
+"keil_ide_svc_handler\stm32f4xx_hal_gpio.o"
+"keil_ide_svc_handler\stm32f4xx_hal_dma_ex.o"
+"keil_ide_svc_handler\stm32f4xx_hal_dma.o"
+"keil_ide_svc_handler\stm32f4xx_hal_pwr.o"
+"keil_ide_svc_handler\stm32f4xx_hal_pwr_ex.o"
+"keil_ide_svc_handler\stm32f4xx_hal_cortex.o"
+"keil_ide_svc_handler\stm32f4xx_hal.o"
+"keil_ide_svc_handler\stm32f4xx_hal_exti.o"
+"keil_ide_svc_handler\system_stm32f4xx.o"
+--strict --scatter "Keil_IDE_SVC_Handler\Keil_IDE_SVC_Handler.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Keil_IDE_SVC_Handler.map" -o Keil_IDE_SVC_Handler\Keil_IDE_SVC_Handler.axf

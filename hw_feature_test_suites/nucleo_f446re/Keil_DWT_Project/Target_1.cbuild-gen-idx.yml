@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.41.0.0
+  generators:
+    - board: ""
+      device: STM32F446RETx
+      id: CubeMX
+      output: C:/Users/AcerPC/STM32CubeIDE/workspace/Keil_DWT_Project/STM32CubeMX/Target_1/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: C:/Users/AcerPC/STM32CubeIDE/workspace/Keil_DWT_Project/Keil_DWT_Project.Target_1.cbuild-gen.yml
+          configuration: .Target_1
+          name: C:/Users/AcerPC/STM32CubeIDE/workspace/Keil_DWT_Project/STM32CubeMX/Target_1/Keil_DWT_Project.cgen.yml
+          project: Keil_DWT_Project
