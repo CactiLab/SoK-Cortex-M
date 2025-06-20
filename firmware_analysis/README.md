@@ -5,8 +5,8 @@
 - Python version > 3.6
 - Replace the `ARMTHUMBinstructions.sinc` file in `<your_ghidra_path>/Ghidra/Processors/ARM/data/languages/` with the one in `code/` folder
 - A MySQL database server to import the firmware database in `database/cortexm_firmware_merged_fw.sql`
-- Firmware dataset: [Link](https://drive.google.com/file/d/1uWVKqKGIP1HCtJI6HcY344SV8IgiraXM/view?usp=sharing)
-- Firmware disassembly results: [Link](https://drive.google.com/file/d/1EHPaiSU4ySEfFBE_tv0xxvT-UPH1wZwQ/view?usp=sharing)
+- Firmware dataset: [Link](https://drive.google.com/file/d/1NOTp38BEO4X5hFGMOCana5JQMRbg-cuK/view?usp=sharing)
+- Firmware disassembly results: [Link](https://drive.google.com/file/d/1EiOIa2SzmMG_NtxSV4yWuYwgH4qEYpbI/view?usp=sharing)
 
 # File Description
 
